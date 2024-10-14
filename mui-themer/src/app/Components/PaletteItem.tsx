@@ -108,7 +108,11 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
       </Typography>
       <Button onClick={handleClickOpen}>Edit</Button>
       <ColorSwatch label="Light" color={createColorLevel('light')} />
-      <ColorSwatch label="Main" color={createColorLevel('main')} />
+      <ColorSwatch
+        label="Main"
+        color={createColorLevel('main')}
+        sx={{ width: 200 }}
+      />
       <ColorSwatch label="Dark" color={createColorLevel('dark')} />
       <ColorSwatch
         label="Contrast text"

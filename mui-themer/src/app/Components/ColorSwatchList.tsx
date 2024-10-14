@@ -1,7 +1,15 @@
 import { Box } from '@mui/material';
 import { ColorSwatch } from './ColorSwatch';
 
-export const ColorSwatchList = ({ colors, onColorClick }) => (
+interface ColorSwatchListProps {
+  colors: any;
+  onColorClick: (color: string) => void;
+}
+
+export const ColorSwatchList = ({
+  colors,
+  onColorClick,
+}: ColorSwatchListProps) => (
   <Box display="flex" flexWrap="wrap">
     {colors.map((swatch) => {
       return (

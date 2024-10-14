@@ -1,7 +1,19 @@
-import { Box, Typography } from '@mui/material';
+import { Box, BoxProps, Typography } from '@mui/material';
 
-export const ColorSwatch = ({ label, color, onClick }: any) => (
+interface ColorSwatchProps extends BoxProps {
+  label: string;
+  color: string;
+  onClick: () => void;
+}
+
+export const ColorSwatch = ({
+  label,
+  color,
+  onClick,
+  ...rest
+}: ColorSwatchProps) => (
   <Box
+    {...rest}
     sx={{
       backgroundColor: color,
       width: 50,
@@ -10,6 +22,7 @@ export const ColorSwatch = ({ label, color, onClick }: any) => (
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
+      ...rest.sx,
     }}
     onClick={onClick}
   >
