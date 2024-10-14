@@ -85,47 +85,47 @@ export function Types() {
   );
 }
 
-const colorMap = {
-  primary,
-  error,
-  warning,
-  success,
-  moss,
-  teal,
-  greenLight,
-  green,
-  cyan,
-  blue,
-  blueLight,
-  violet,
-  fuchsia,
-  pink,
-  rose,
-  orangeDark,
-  orange,
-  yellow,
-};
+// const colorMap = {
+//   primary,
+//   error,
+//   warning,
+//   success,
+//   moss,
+//   teal,
+//   greenLight,
+//   green,
+//   cyan,
+//   blue,
+//   blueLight,
+//   violet,
+//   fuchsia,
+//   pink,
+//   rose,
+//   orangeDark,
+//   orange,
+//   yellow,
+// };
 
-export const colorNames = [
-  'primary',
-  'error',
-  'warning',
-  'success',
-  'moss',
-  'teal',
-  'greenLight',
-  'green',
-  'cyan',
-  'blue',
-  'blueLight',
-  'violet',
-  'fuchsia',
-  'pink',
-  'rose',
-  'orangeDark',
-  'orange',
-  'yellow',
-];
+// export const colorNames = [
+//   'primary',
+//   'error',
+//   'warning',
+//   'success',
+//   'moss',
+//   'teal',
+//   'greenLight',
+//   'green',
+//   'cyan',
+//   'blue',
+//   'blueLight',
+//   'violet',
+//   'fuchsia',
+//   'pink',
+//   'rose',
+//   'orangeDark',
+//   'orange',
+//   'yellow',
+// ];
 
 const App = () => {
   const [primaryColor, setPrimaryColor] = useState(
@@ -168,37 +168,27 @@ const App = () => {
     },
   });
 
-  const handleColorClick = (color) => {
-    setPrimaryColor(color);
-  };
+  // const handleColorClick = (color) => {
+  //   setPrimaryColor(color);
+  // };
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Typography variant="h1">Mui Themer</Typography>
       <Typography variant="h2">Palette</Typography>
-      {/* <div>
-        <Typography>Primary: {theme.palette.primary.main}</Typography>
-        <ColorSwatch label="Light" color={theme.palette.primary.light} />
-        <ColorSwatch label="Primary" color={theme.palette.primary.main} />
-        <ColorSwatch label="Dark" color={theme.palette.primary.dark} />
-        <ColorSwatch
-          label="Contrast text"
-          color={theme.palette.primary.contrastText}
-        />
-      </div> */}
-      <PaletteItem color="primary" />
-      <PaletteItem color="secondary" />
-      <PaletteItem color="error" />
-      <PaletteItem color="warning" />
-      <PaletteItem color="success" />
-      <PaletteItem color="info" />
+      <PaletteItem color="primary" setColor={setPrimaryColor} />
+      <PaletteItem color="secondary" setColor={setPrimaryColor} />
+      <PaletteItem color="error" setColor={setPrimaryColor} />
+      <PaletteItem color="warning" setColor={setPrimaryColor} />
+      <PaletteItem color="success" setColor={setPrimaryColor} />
+      <PaletteItem color="info" setColor={setPrimaryColor} />
 
       <Divider sx={{ marginBottom: 2 }} />
       <Button variant="contained" color="primary">
         Primary
       </Button>
-      {colorNames.map((colorName) => (
+      {/* {colorNames.map((colorName) => (
         <Box key={colorName} sx={{ marginBottom: 1 }}>
           <Typography>
             {colorName.charAt(0).toUpperCase() + colorName.slice(1)}
@@ -208,7 +198,7 @@ const App = () => {
             onColorClick={handleColorClick}
           />
         </Box>
-      ))}
+      ))} */}
       <Types />
     </ThemeProvider>
   );
