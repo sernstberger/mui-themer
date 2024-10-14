@@ -282,3 +282,108 @@ export const green = [
   { label: '900', color: '#084C2E', accessibility: 'AAA 10.07' },
   { label: '950', color: '#052E1C', accessibility: 'AAA 14.85' },
 ];
+
+export const violet = [
+  { label: '25', color: '#FBFAFF', accessibility: 'AAA 6.96' },
+  { label: '50', color: '#F5F3FF', accessibility: 'AA 6.59' },
+  { label: '100', color: '#ECE9FE', accessibility: 'AA 6.08' },
+  { label: '200', color: '#DDD6FE', accessibility: 'AA 5.20' },
+  { label: '300', color: '#C3B5FD', accessibility: '3.90' },
+  { label: '400', color: '#A48AFB', accessibility: '2.76' },
+  { label: '500', color: '#875BF7', accessibility: '4.31' },
+  { label: '600', color: '#7839EE', accessibility: 'AA 5.80' },
+  { label: '700', color: '#6927DA', accessibility: 'AAA 7.23' },
+  { label: '800', color: '#5720B7', accessibility: 'AAA 9.14' },
+  { label: '900', color: '#491C96', accessibility: 'AAA 11.11' },
+  { label: '950', color: '#2E125E', accessibility: 'AAA 15.39' },
+];
+
+export const fuchsia = [
+  { label: '25', color: '#FEFAFF', accessibility: 'AA 6.24' },
+  { label: '50', color: '#FDF4FF', accessibility: 'AA 6.00' },
+  { label: '100', color: '#FBE8FF', accessibility: 'AA 5.55' },
+  { label: '200', color: '#F6D0FE', accessibility: 'AA 4.71' },
+  { label: '300', color: '#EEAAFD', accessibility: '3.62' },
+  { label: '400', color: '#E478FA', accessibility: '2.51' },
+  { label: '500', color: '#D444F1', accessibility: '3.56' },
+  { label: '600', color: '#BA24D5', accessibility: 'AA 4.88' },
+  { label: '700', color: '#9F1AB1', accessibility: 'AA 6.44' },
+  { label: '800', color: '#821890', accessibility: 'AAA 8.45' },
+  { label: '900', color: '#6F1877', accessibility: 'AAA 10.13' },
+  { label: '950', color: '#47104C', accessibility: 'AAA 14.51' },
+];
+
+export const pink = [
+  { label: '25', color: '#FEF6FB', accessibility: 'AA 5.45' },
+  { label: '50', color: '#FDF2FA', accessibility: 'AA 5.30' },
+  { label: '100', color: '#FCE7F6', accessibility: 'AA 4.93' },
+  { label: '200', color: '#FCCEEE', accessibility: '4.19' },
+  { label: '300', color: '#FAA7E0', accessibility: '3.21' },
+  { label: '400', color: '#F670C7', accessibility: '2.60' },
+  { label: '500', color: '#EE46BC', accessibility: '3.36' },
+  { label: '600', color: '#DD2590', accessibility: '4.42' },
+  { label: '700', color: '#C11574', accessibility: 'AA 5.78' },
+  { label: '800', color: '#9E165F', accessibility: 'AAA 7.68' },
+  { label: '900', color: '#851651', accessibility: 'AAA 9.41' },
+  { label: '950', color: '#4E0D30', accessibility: 'AAA 14.74' },
+];
+
+export const rose = [
+  { label: '25', color: '#FFF5F6', accessibility: 'AA 5.76' },
+  { label: '50', color: '#FFF1F3', accessibility: 'AA 5.61' },
+  { label: '100', color: '#FFE4E8', accessibility: 'AA 5.13' },
+  { label: '200', color: '#FECDD6', accessibility: '4.37' },
+  { label: '300', color: '#FEA3B4', accessibility: '3.25' },
+  { label: '400', color: '#FD6F8E', accessibility: '2.67' },
+  { label: '500', color: '#F63D68', accessibility: '3.62' },
+  { label: '600', color: '#E31B54', accessibility: 'AA 4.61' },
+  { label: '700', color: '#C01048', accessibility: 'AA 6.16' },
+  { label: '800', color: '#A11043', accessibility: 'AAA 7.86' },
+  { label: '900', color: '#89123E', accessibility: 'AAA 9.46' },
+  { label: '950', color: '#510B24', accessibility: 'AAA 14.75' },
+];
+
+export const orangeDark = [
+  { label: '25', color: '#FFF9F5', accessibility: 'AA 6.10' },
+  { label: '50', color: '#FFF4ED', accessibility: 'AA 5.88' },
+  { label: '100', color: '#FFE6D5', accessibility: 'AA 5.31' },
+  { label: '200', color: '#FFD6AE', accessibility: 'AA 4.69' },
+  { label: '300', color: '#FF9C66', accessibility: '3.09' },
+  { label: '400', color: '#FF692E', accessibility: '2.87' },
+  { label: '500', color: '#FF4405', accessibility: '3.45' },
+  { label: '600', color: '#E62E05', accessibility: '4.41' },
+  { label: '700', color: '#BC1B06', accessibility: 'AA 6.36' },
+  { label: '800', color: '#97180C', accessibility: 'AAA 8.56' },
+  { label: '900', color: '#771A0D', accessibility: 'AAA 10.83' },
+  { label: '950', color: '#57130A', accessibility: 'AAA 13.97' },
+];
+
+export const orange = [
+  { label: '25', color: '#FEFAF5', accessibility: 'AA 5.55' },
+  { label: '50', color: '#FEF6EE', accessibility: 'AA 5.39' },
+  { label: '100', color: '#FDEAD7', accessibility: 'AA 4.92' },
+  { label: '200', color: '#F9DBAF', accessibility: '4.33' },
+  { label: '300', color: '#F7B27A', accessibility: '3.18' },
+  { label: '400', color: '#F38744', accessibility: '2.51' },
+  { label: '500', color: '#EF6820', accessibility: '3.14' },
+  { label: '600', color: '#E04F16', accessibility: '3.96' },
+  { label: '700', color: '#B93815', accessibility: 'AA 5.77' },
+  { label: '800', color: '#932F19', accessibility: 'AAA 7.89' },
+  { label: '900', color: '#772917', accessibility: 'AAA 9.93' },
+  { label: '950', color: '#511C10', accessibility: 'AAA 13.78' },
+];
+
+export const yellow = [
+  { label: '25', color: '#FEFDF0', accessibility: 'AA 5.06' },
+  { label: '50', color: '#FEFBE8', accessibility: 'AA 4.98' },
+  { label: '100', color: '#FEF7C3', accessibility: 'AA 4.76' },
+  { label: '200', color: '#FEEE95', accessibility: '4.41' },
+  { label: '300', color: '#FDE272', accessibility: '4.02' },
+  { label: '400', color: '#FAC515', accessibility: '1.60' },
+  { label: '500', color: '#EAAA08', accessibility: '2.04' },
+  { label: '600', color: '#CA8504', accessibility: '3.05' },
+  { label: '700', color: '#A15C07', accessibility: 'AA 5.18' },
+  { label: '800', color: '#854A0E', accessibility: 'AAA 7.03' },
+  { label: '900', color: '#713B12', accessibility: 'AAA 8.98' },
+  { label: '950', color: '#542C0D', accessibility: 'AAA 12.04' },
+];
