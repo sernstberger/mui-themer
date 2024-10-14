@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
-import { Button, CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import {
+  Button,
+  CssBaseline,
+  Divider,
+  ThemeProvider,
+  createTheme,
+} from '@mui/material';
 import { Box, Typography } from '@mui/material';
 import {
   primary,
@@ -126,9 +132,11 @@ const App = () => {
 
   const theme = createTheme({
     palette: {
+      // TODO: add common
       primary: {
         main: primaryColor,
       },
+      // TODO: add secondary
       error: {
         main: error.find((color) => color.label === '600')?.color || '#D92D20',
       },
@@ -140,6 +148,11 @@ const App = () => {
         main:
           success.find((color) => color.label === '600')?.color || '#079455',
       },
+      // TODO: add info
+      // TODO: add grey
+      // TODO: add text
+      // TODO: add divider
+      // TODO: add background
     },
     typography: {
       fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
@@ -160,6 +173,16 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <Typography variant="h1">Mui Themer</Typography>
+      <Typography variant="h2">Palette</Typography>
+      <Typography>Primary: {theme.palette.primary.main}</Typography>
+      <Typography>Secondary: {theme.palette.secondary.main}</Typography>
+      <Typography>Error: {theme.palette.error.main}</Typography>
+      <Typography>Warning: {theme.palette.warning.main}</Typography>
+      <Typography>Success: {theme.palette.success.main}</Typography>
+      <Typography>Info: {theme.palette.info.main}</Typography>
+
+      <Divider sx={{ marginBottom: 2 }} />
       <Button variant="contained" color="primary">
         Primary
       </Button>
