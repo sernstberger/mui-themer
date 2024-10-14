@@ -28,6 +28,8 @@ import {
   yellow,
 } from './colors';
 import { ColorSwatchList } from './Components/ColorSwatchList';
+import { ColorSwatch } from './Components/ColorSwatch';
+import { PaletteItem } from './Components/PaletteItem';
 
 export function Types() {
   return (
@@ -127,7 +129,7 @@ export const colorNames = [
 
 const App = () => {
   const [primaryColor, setPrimaryColor] = useState(
-    primary.find((color) => color.label === '600')?.color || '#7F56D9'
+    primary.find((color) => color.label === '600')?.color || '#1976d2'
   );
 
   const theme = createTheme({
@@ -175,12 +177,22 @@ const App = () => {
       <CssBaseline />
       <Typography variant="h1">Mui Themer</Typography>
       <Typography variant="h2">Palette</Typography>
-      <Typography>Primary: {theme.palette.primary.main}</Typography>
-      <Typography>Secondary: {theme.palette.secondary.main}</Typography>
-      <Typography>Error: {theme.palette.error.main}</Typography>
-      <Typography>Warning: {theme.palette.warning.main}</Typography>
-      <Typography>Success: {theme.palette.success.main}</Typography>
-      <Typography>Info: {theme.palette.info.main}</Typography>
+      {/* <div>
+        <Typography>Primary: {theme.palette.primary.main}</Typography>
+        <ColorSwatch label="Light" color={theme.palette.primary.light} />
+        <ColorSwatch label="Primary" color={theme.palette.primary.main} />
+        <ColorSwatch label="Dark" color={theme.palette.primary.dark} />
+        <ColorSwatch
+          label="Contrast text"
+          color={theme.palette.primary.contrastText}
+        />
+      </div> */}
+      <PaletteItem color="primary" />
+      <PaletteItem color="secondary" />
+      <PaletteItem color="error" />
+      <PaletteItem color="warning" />
+      <PaletteItem color="success" />
+      <PaletteItem color="info" />
 
       <Divider sx={{ marginBottom: 2 }} />
       <Button variant="contained" color="primary">
