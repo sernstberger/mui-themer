@@ -390,1060 +390,805 @@ export const yellow = [
 
 <div class="material-colors">
   <label style="color: rgb(244, 67, 54);">Red</label>
-  <button class="color" style="--bgc: #FFEBEE; --tc: #FF2747;">
+  <button style="--bgc: #FFEBEE; --tc: #FF2747;">
     <span>50</span>
-    <span style="display: none;">95.5K</span>
   </button>
-  <button class="color" style="--bgc: #FFCDD2; --tc: #FF152C;">
+  <button style="--bgc: #FFCDD2; --tc: #FF152C;">
     <span>100</span>
-    <span style="display: none;">116.3K</span>
   </button>
-  <button class="color" style="--bgc: #EF9A9A; --tc: #CC2020;">
+  <button style="--bgc: #EF9A9A; --tc: #CC2020;">
     <span>200</span>
-    <span style="display: none;">101.2K</span>
   </button>
-  <button class="color" style="--bgc: #E57373; --tc: #AE2020;">
+  <button style="--bgc: #E57373; --tc: #AE2020;">
     <span>300</span>
-    <span style="display: none;">113.9K</span>
   </button>
-  <button class="color" style="--bgc: #EF5350; --tc: #FAC6C5;">
+  <button style="--bgc: #EF5350; --tc: #FAC6C5;">
     <span>400</span>
-    <span style="display: none;">179.9K</span>
   </button>
-  <button class="color" style="--bgc: #F44336; --tc: #FAADA7;">
+  <button style="--bgc: #F44336; --tc: #FAADA7;">
     <span>500</span>
-    <span style="display: none;">567.2K</span>
   </button>
-  <button class="color" style="--bgc: #E53935; --tc: #F29B99;">
+  <button style="--bgc: #E53935; --tc: #F29B99;">
     <span>600</span>
-    <span style="display: none;">171.9K</span>
   </button>
-  <button class="color" style="--bgc: #D32F2F; --tc: #E58484;">
+  <button style="--bgc: #D32F2F; --tc: #E58484;">
     <span>700</span>
-    <span style="display: none;">151.9K</span>
   </button>
-  <button class="color" style="--bgc: #C62828; --tc: #E16C6C;">
+  <button style="--bgc: #C62828; --tc: #E16C6C;">
     <span>800</span>
-    <span style="display: none;">121K</span>
   </button>
-  <button class="color" style="--bgc: #B71C1C; --tc: #E34545;">
+  <button style="--bgc: #B71C1C; --tc: #E34545;">
     <span>900</span>
-    <span style="display: none;">199.5K</span>
   </button>
-  <button class="color" style="--bgc: #FF8A80; --tc: #E61200;">
+  <button style="--bgc: #FF8A80; --tc: #E61200;">
     <span>A100</span>
-    <span style="display: none;">36.5K</span>
   </button>
-  <button class="color" style="--bgc: #FF5252; --tc: #FFD9D9;">
+  <button style="--bgc: #FF5252; --tc: #FFD9D9;">
     <span>A200</span>
-    <span style="display: none;">43.9K</span>
   </button>
-  <button class="color" style="--bgc: #FF1744; --tc: #FF869E;">
+  <button style="--bgc: #FF1744; --tc: #FF869E;">
     <span>A400</span>
-    <span style="display: none;">66.5K</span>
   </button>
-  <button class="color" style="--bgc: #D50000; --tc: #FF2B2B;">
+  <button style="--bgc: #D50000; --tc: #FF2B2B;">
     <span>A700</span>
-    <span style="display: none;">118.2K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(233, 30, 99);">Pink</label>
-  <button class="color" style="--bgc: #FCE4EC; --tc: #E93772;">
+  <button style="--bgc: #FCE4EC; --tc: #E93772;">
     <span>50</span>
-    <span style="display: none;">47.8K</span>
   </button>
-  <button class="color" style="--bgc: #F8BBD0; --tc: #E81D63;">
+  <button style="--bgc: #F8BBD0; --tc: #E81D63;">
     <span>100</span>
-    <span style="display: none;">73.6K</span>
   </button>
-  <button class="color" style="--bgc: #F48FB1; --tc: #D31555;">
+  <button style="--bgc: #F48FB1; --tc: #D31555;">
     <span>200</span>
-    <span style="display: none;">79.2K</span>
   </button>
-  <button class="color" style="--bgc: #F06292; --tc: #B9124A;">
+  <button style="--bgc: #F06292; --tc: #B9124A;">
     <span>300</span>
-    <span style="display: none;">93.7K</span>
   </button>
-  <button class="color" style="--bgc: #EC407A; --tc: #F7ADC6;">
+  <button style="--bgc: #EC407A; --tc: #F7ADC6;">
     <span>400</span>
-    <span style="display: none;">109.8K</span>
   </button>
-  <button class="color" style="--bgc: #E91E63; --tc: #F27EA5;">
+  <button style="--bgc: #E91E63; --tc: #F27EA5;">
     <span>500</span>
-    <span style="display: none;">260.1K</span>
   </button>
-  <button class="color" style="--bgc: #D81B60; --tc: #EC6898;">
+  <button style="--bgc: #D81B60; --tc: #EC6898;">
     <span>600</span>
-    <span style="display: none;">70.6K</span>
   </button>
-  <button class="color" style="--bgc: #C2185B; --tc: #E84988;">
+  <button style="--bgc: #C2185B; --tc: #E84988;">
     <span>700</span>
-    <span style="display: none;">60.3K</span>
   </button>
-  <button class="color" style="--bgc: #AD1457; --tc: #E6287B;">
+  <button style="--bgc: #AD1457; --tc: #E6287B;">
     <span>800</span>
-    <span style="display: none;">51K</span>
   </button>
-  <button class="color" style="--bgc: #880E4F; --tc: #BE146F;">
+  <button style="--bgc: #880E4F; --tc: #BE146F;">
     <span>900</span>
-    <span style="display: none;">62.2K</span>
   </button>
-  <button class="color" style="--bgc: #FF80AB; --tc: #E6004E;">
+  <button style="--bgc: #FF80AB; --tc: #E6004E;">
     <span>A100</span>
-    <span style="display: none;">88.8K</span>
   </button>
-  <button class="color" style="--bgc: #FF4081; --tc: #FFC0D5;">
+  <button style="--bgc: #FF4081; --tc: #FFC0D5;">
     <span>A200</span>
-    <span style="display: none;">36.7K</span>
   </button>
-  <button class="color" style="--bgc: #F50057; --tc: #FF5893;">
+  <button style="--bgc: #F50057; --tc: #FF5893;">
     <span>A400</span>
-    <span style="display: none;">52K</span>
   </button>
-  <button class="color" style="--bgc: #C51162; --tc: #EE3D8D;">
+  <button style="--bgc: #C51162; --tc: #EE3D8D;">
     <span>A700</span>
-    <span style="display: none;">20.7K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(156, 39, 176);">Purple</label>
-  <button class="color" style="--bgc: #F3E5F5; --tc: #B45CC0;">
+  <button style="--bgc: #F3E5F5; --tc: #B45CC0;">
     <span>50</span>
-    <span style="display: none;">31.7K</span>
   </button>
-  <button class="color" style="--bgc: #E1BEE7; --tc: #A744B8;">
+  <button style="--bgc: #E1BEE7; --tc: #A744B8;">
     <span>100</span>
-    <span style="display: none;">51.6K</span>
   </button>
-  <button class="color" style="--bgc: #CE93D8; --tc: #913AA0;">
+  <button style="--bgc: #CE93D8; --tc: #913AA0;">
     <span>200</span>
-    <span style="display: none;">64.2K</span>
   </button>
-  <button class="color" style="--bgc: #BA68C8; --tc: #793186;">
+  <button style="--bgc: #BA68C8; --tc: #793186;">
     <span>300</span>
-    <span style="display: none;">69.3K</span>
   </button>
-  <button class="color" style="--bgc: #AB47BC; --tc: #CE93D8;">
+  <button style="--bgc: #AB47BC; --tc: #CE93D8;">
     <span>400</span>
-    <span style="display: none;">82.8K</span>
   </button>
-  <button class="color" style="--bgc: #9C27B0; --tc: #C654D9;">
+  <button style="--bgc: #9C27B0; --tc: #C654D9;">
     <span>500</span>
-    <span style="display: none;">203K</span>
   </button>
-  <button class="color" style="--bgc: #8E24AA; --tc: #BA48D8;">
+  <button style="--bgc: #8E24AA; --tc: #BA48D8;">
     <span>600</span>
-    <span style="display: none;">61.3K</span>
   </button>
-  <button class="color" style="--bgc: #7B1FA2; --tc: #A836D8;">
+  <button style="--bgc: #7B1FA2; --tc: #A836D8;">
     <span>700</span>
-    <span style="display: none;">67.4K</span>
   </button>
-  <button class="color" style="--bgc: #6A1B9A; --tc: #9426D8;">
+  <button style="--bgc: #6A1B9A; --tc: #9426D8;">
     <span>800</span>
-    <span style="display: none;">57.3K</span>
   </button>
-  <button class="color" style="--bgc: #4A148C; --tc: #681CC4;">
+  <button style="--bgc: #4A148C; --tc: #681CC4;">
     <span>900</span>
-    <span style="display: none;">67.4K</span>
   </button>
-  <button class="color" style="--bgc: #EA80FC; --tc: #BF05DF;">
+  <button style="--bgc: #EA80FC; --tc: #BF05DF;">
     <span>A100</span>
-    <span style="display: none;">23.5K</span>
   </button>
-  <button class="color" style="--bgc: #E040FB; --tc: #F4BBFE;">
+  <button style="--bgc: #E040FB; --tc: #F4BBFE;">
     <span>A200</span>
-    <span style="display: none;">92.3K</span>
   </button>
-  <button class="color" style="--bgc: #D500F9; --tc: #E85EFF;">
+  <button style="--bgc: #D500F9; --tc: #E85EFF;">
     <span>A400</span>
-    <span style="display: none;">34.9K</span>
   </button>
-  <button class="color" style="--bgc: #AA00FF; --tc: #CC66FF;">
+  <button style="--bgc: #AA00FF; --tc: #CC66FF;">
     <span>A700</span>
-    <span style="display: none;">24.7K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(103, 58, 183);">Deep Purple</label>
-  <button class="color" style="--bgc: #EDE7F6; --tc: #855CC2;">
+  <button style="--bgc: #EDE7F6; --tc: #855CC2;">
     <span>50</span>
-    <span style="display: none;">28.5K</span>
   </button>
-  <button class="color" style="--bgc: #D1C4E9; --tc: #7047BA;">
+  <button style="--bgc: #D1C4E9; --tc: #7047BA;">
     <span>100</span>
-    <span style="display: none;">44.2K</span>
   </button>
-  <button class="color" style="--bgc: #B39DDB; --tc: #623DA5;">
+  <button style="--bgc: #B39DDB; --tc: #623DA5;">
     <span>200</span>
-    <span style="display: none;">51.6K</span>
   </button>
-  <button class="color" style="--bgc: #9575CD; --tc: #54338E;">
+  <button style="--bgc: #9575CD; --tc: #54338E;">
     <span>300</span>
-    <span style="display: none;">65.4K</span>
   </button>
-  <button class="color" style="--bgc: #7E57C2; --tc: #BDA9E0;">
+  <button style="--bgc: #7E57C2; --tc: #BDA9E0;">
     <span>400</span>
-    <span style="display: none;">83.1K</span>
   </button>
-  <button class="color" style="--bgc: #673AB7; --tc: #9C7CD5;">
+  <button style="--bgc: #673AB7; --tc: #9C7CD5;">
     <span>500</span>
-    <span style="display: none;">183.1K</span>
   </button>
-  <button class="color" style="--bgc: #5E35B1; --tc: #906ED4;">
+  <button style="--bgc: #5E35B1; --tc: #906ED4;">
     <span>600</span>
-    <span style="display: none;">57.6K</span>
   </button>
-  <button class="color" style="--bgc: #512DA8; --tc: #7C58D2;">
+  <button style="--bgc: #512DA8; --tc: #7C58D2;">
     <span>700</span>
-    <span style="display: none;">55.8K</span>
   </button>
-  <button class="color" style="--bgc: #4527A0; --tc: #6845D2;">
+  <button style="--bgc: #4527A0; --tc: #6845D2;">
     <span>800</span>
-    <span style="display: none;">47.9K</span>
   </button>
-  <button class="color" style="--bgc: #311B92; --tc: #4526CC;">
+  <button style="--bgc: #311B92; --tc: #4526CC;">
     <span>900</span>
-    <span style="display: none;">64.8K</span>
   </button>
-  <button class="color" style="--bgc: #B388FF; --tc: #5500EB;">
+  <button style="--bgc: #B388FF; --tc: #5500EB;">
     <span>A100</span>
-    <span style="display: none;">19.6K</span>
   </button>
-  <button class="color" style="--bgc: #7C4DFF; --tc: #DED2FF;">
+  <button style="--bgc: #7C4DFF; --tc: #DED2FF;">
     <span>A200</span>
-    <span style="display: none;">91.7K</span>
   </button>
-  <button class="color" style="--bgc: #651FFF; --tc: #B491FF;">
+  <button style="--bgc: #651FFF; --tc: #B491FF;">
     <span>A400</span>
-    <span style="display: none;">33.4K</span>
   </button>
-  <button class="color" style="--bgc: #6200EA; --tc: #9549FF;">
+  <button style="--bgc: #6200EA; --tc: #9549FF;">
     <span>A700</span>
-    <span style="display: none;">32.2K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(63, 81, 181);">Indigo</label>
-  <button class="color" style="--bgc: #E8EAF6; --tc: #5F6DC0;">
+  <button style="--bgc: #E8EAF6; --tc: #5F6DC0;">
     <span>50</span>
-    <span style="display: none;">38.8K</span>
   </button>
-  <button class="color" style="--bgc: #C5CAE9; --tc: #4858BA;">
+  <button style="--bgc: #C5CAE9; --tc: #4858BA;">
     <span>100</span>
-    <span style="display: none;">54.9K</span>
   </button>
-  <button class="color" style="--bgc: #9FA8DA; --tc: #3F4EA3;">
+  <button style="--bgc: #9FA8DA; --tc: #3F4EA3;">
     <span>200</span>
-    <span style="display: none;">120.4K</span>
   </button>
-  <button class="color" style="--bgc: #7986CB; --tc: #36448C;">
+  <button style="--bgc: #7986CB; --tc: #36448C;">
     <span>300</span>
-    <span style="display: none;">136.1K</span>
   </button>
-  <button class="color" style="--bgc: #5C6BC0; --tc: #AEB5E0;">
+  <button style="--bgc: #5C6BC0; --tc: #AEB5E0;">
     <span>400</span>
-    <span style="display: none;">162.3K</span>
   </button>
-  <button class="color" style="--bgc: #3F51B5; --tc: #828FD4;">
+  <button style="--bgc: #3F51B5; --tc: #828FD4;">
     <span>500</span>
-    <span style="display: none;">347.8K</span>
   </button>
-  <button class="color" style="--bgc: #3949AB; --tc: #707DCF;">
+  <button style="--bgc: #3949AB; --tc: #707DCF;">
     <span>600</span>
-    <span style="display: none;">95.8K</span>
   </button>
-  <button class="color" style="--bgc: #303F9F; --tc: #5666CC;">
+  <button style="--bgc: #303F9F; --tc: #5666CC;">
     <span>700</span>
-    <span style="display: none;">100.7K</span>
   </button>
-  <button class="color" style="--bgc: #283593; --tc: #3C4DCA;">
+  <button style="--bgc: #283593; --tc: #3C4DCA;">
     <span>800</span>
-    <span style="display: none;">99.8K</span>
   </button>
-  <button class="color" style="--bgc: #1A237E; --tc: #2431B0;">
+  <button style="--bgc: #1A237E; --tc: #2431B0;">
     <span>900</span>
-    <span style="display: none;">191.8K</span>
   </button>
-  <button class="color" style="--bgc: #8C9EFF; --tc: #0025ED;">
+  <button style="--bgc: #8C9EFF; --tc: #0025ED;">
     <span>A100</span>
-    <span style="display: none;">19.3K</span>
   </button>
-  <button class="color" style="--bgc: #536DFE; --tc: #D9DFFF;">
+  <button style="--bgc: #536DFE; --tc: #D9DFFF;">
     <span>A200</span>
-    <span style="display: none;">30.6K</span>
   </button>
-  <button class="color" style="--bgc: #3D5AFE; --tc: #BAC5FF;">
+  <button style="--bgc: #3D5AFE; --tc: #BAC5FF;">
     <span>A400</span>
-    <span style="display: none;">100.3K</span>
   </button>
-  <button class="color" style="--bgc: #304FFE; --tc: #A8B5FF;">
+  <button style="--bgc: #304FFE; --tc: #A8B5FF;">
     <span>A700</span>
-    <span style="display: none;">54.1K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(33, 150, 243);">Blue</label>
-  <button class="color" style="--bgc: #E3F2FD; --tc: #309FF0;">
+  <button style="--bgc: #E3F2FD; --tc: #309FF0;">
     <span>50</span>
-    <span style="display: none;">80.9K</span>
   </button>
-  <button class="color" style="--bgc: #BBDEFB; --tc: #168EF1;">
+  <button style="--bgc: #BBDEFB; --tc: #168EF1;">
     <span>100</span>
-    <span style="display: none;">114.7K</span>
   </button>
-  <button class="color" style="--bgc: #90CAF9; --tc: #0C81E0;">
+  <button style="--bgc: #90CAF9; --tc: #0C81E0;">
     <span>200</span>
-    <span style="display: none;">114.3K</span>
   </button>
-  <button class="color" style="--bgc: #64B5F6; --tc: #0B72C4;">
+  <button style="--bgc: #64B5F6; --tc: #0B72C4;">
     <span>300</span>
-    <span style="display: none;">193.2K</span>
   </button>
-  <button class="color" style="--bgc: #42A5F5; --tc: #0966B1;">
+  <button style="--bgc: #42A5F5; --tc: #0966B1;">
     <span>400</span>
-    <span style="display: none;">220.2K</span>
   </button>
-  <button class="color" style="--bgc: #2196F3; --tc: #085B9D;">
+  <button style="--bgc: #2196F3; --tc: #085B9D;">
     <span>500</span>
-    <span style="display: none;">549.4K</span>
   </button>
-  <button class="color" style="--bgc: #1E88E5; --tc: #7BB9F0;">
+  <button style="--bgc: #1E88E5; --tc: #7BB9F0;">
     <span>600</span>
-    <span style="display: none;">200.7K</span>
   </button>
-  <button class="color" style="--bgc: #1976D2; --tc: #5DA5EC;">
+  <button style="--bgc: #1976D2; --tc: #5DA5EC;">
     <span>700</span>
-    <span style="display: none;">209.5K</span>
   </button>
-  <button class="color" style="--bgc: #1565C0; --tc: #4090EA;">
+  <button style="--bgc: #1565C0; --tc: #4090EA;">
     <span>800</span>
-    <span style="display: none;">189.8K</span>
   </button>
-  <button class="color" style="--bgc: #0D47A1; --tc: #1263E1;">
+  <button style="--bgc: #0D47A1; --tc: #1263E1;">
     <span>900</span>
-    <span style="display: none;">219.8K</span>
   </button>
-  <button class="color" style="--bgc: #82B1FF; --tc: #0057E7;">
+  <button style="--bgc: #82B1FF; --tc: #0057E7;">
     <span>A100</span>
-    <span style="display: none;">26.1K</span>
   </button>
-  <button class="color" style="--bgc: #448AFF; --tc: #0049C2;">
+  <button style="--bgc: #448AFF; --tc: #0049C2;">
     <span>A200</span>
-    <span style="display: none;">40.7K</span>
   </button>
-  <button class="color" style="--bgc: #2979FF; --tc: #9FC3FF;">
+  <button style="--bgc: #2979FF; --tc: #9FC3FF;">
     <span>A400</span>
-    <span style="display: none;">117.9K</span>
   </button>
-  <button class="color" style="--bgc: #2962FF; --tc: #9FB9FF;">
+  <button style="--bgc: #2962FF; --tc: #9FB9FF;">
     <span>A700</span>
-    <span style="display: none;">62K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(3, 169, 244);">Light Blue</label>
-  <button class="color" style="--bgc: #E1F5FE; --tc: #28B7F8;">
+  <button style="--bgc: #E1F5FE; --tc: #28B7F8;">
     <span>50</span>
-    <span style="display: none;">72.9K</span>
   </button>
-  <button class="color" style="--bgc: #B3E5FC; --tc: #0DACF5;">
+  <button style="--bgc: #B3E5FC; --tc: #0DACF5;">
     <span>100</span>
-    <span style="display: none;">120.1K</span>
   </button>
-  <button class="color" style="--bgc: #81D4FA; --tc: #0999DB;">
+  <button style="--bgc: #81D4FA; --tc: #0999DB;">
     <span>200</span>
-    <span style="display: none;">126.6K</span>
   </button>
-  <button class="color" style="--bgc: #4FC3F7; --tc: #0984BB;">
+  <button style="--bgc: #4FC3F7; --tc: #0984BB;">
     <span>300</span>
-    <span style="display: none;">149.5K</span>
   </button>
-  <button class="color" style="--bgc: #29B6F6; --tc: #0774A5;">
+  <button style="--bgc: #29B6F6; --tc: #0774A5;">
     <span>400</span>
-    <span style="display: none;">169.2K</span>
   </button>
-  <button class="color" style="--bgc: #03A9F4; --tc: #026592;">
+  <button style="--bgc: #03A9F4; --tc: #026592;">
     <span>500</span>
-    <span style="display: none;">361.7K</span>
   </button>
-  <button class="color" style="--bgc: #039BE5; --tc: #025D89;">
+  <button style="--bgc: #039BE5; --tc: #025D89;">
     <span>600</span>
-    <span style="display: none;">131K</span>
   </button>
-  <button class="color" style="--bgc: #0288D1; --tc: #2AB3FD;">
+  <button style="--bgc: #0288D1; --tc: #2AB3FD;">
     <span>700</span>
-    <span style="display: none;">112.4K</span>
   </button>
-  <button class="color" style="--bgc: #0277BD; --tc: #0FA4FC;">
+  <button style="--bgc: #0277BD; --tc: #0FA4FC;">
     <span>800</span>
-    <span style="display: none;">91.1K</span>
   </button>
-  <button class="color" style="--bgc: #01579B; --tc: #017AD9;">
+  <button style="--bgc: #01579B; --tc: #017AD9;">
     <span>900</span>
-    <span style="display: none;">97K</span>
   </button>
-  <button class="color" style="--bgc: #80D8FF; --tc: #009FE6;">
+  <button style="--bgc: #80D8FF; --tc: #009FE6;">
     <span>A100</span>
-    <span style="display: none;">25.4K</span>
   </button>
-  <button class="color" style="--bgc: #40C4FF; --tc: #0084BF;">
+  <button style="--bgc: #40C4FF; --tc: #0084BF;">
     <span>A200</span>
-    <span style="display: none;">33.1K</span>
   </button>
-  <button class="color" style="--bgc: #00B0FF; --tc: #006A99;">
+  <button style="--bgc: #00B0FF; --tc: #006A99;">
     <span>A400</span>
-    <span style="display: none;">106.3K</span>
   </button>
-  <button class="color" style="--bgc: #0091EA; --tc: #49BAFF;">
+  <button style="--bgc: #0091EA; --tc: #49BAFF;">
     <span>A700</span>
-    <span style="display: none;">32.8K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(0, 188, 212);">Cyan</label>
-  <button class="color" style="--bgc: #E0F7FA; --tc: #3DCDE0;">
+  <button style="--bgc: #E0F7FA; --tc: #3DCDE0;">
     <span>50</span>
-    <span style="display: none;">49.4K</span>
   </button>
-  <button class="color" style="--bgc: #B2EBF2; --tc: #24C4D8;">
+  <button style="--bgc: #B2EBF2; --tc: #24C4D8;">
     <span>100</span>
-    <span style="display: none;">83.3K</span>
   </button>
-  <button class="color" style="--bgc: #80DEEA; --tc: #1FA9BA;">
+  <button style="--bgc: #80DEEA; --tc: #1FA9BA;">
     <span>200</span>
-    <span style="display: none;">84.8K</span>
   </button>
-  <button class="color" style="--bgc: #4DD0E1; --tc: #1A8C9B;">
+  <button style="--bgc: #4DD0E1; --tc: #1A8C9B;">
     <span>300</span>
-    <span style="display: none;">99K</span>
   </button>
-  <button class="color" style="--bgc: #26C6DA; --tc: #167783;">
+  <button style="--bgc: #26C6DA; --tc: #167783;">
     <span>400</span>
-    <span style="display: none;">111.2K</span>
   </button>
-  <button class="color" style="--bgc: #00BCD4; --tc: #00717F;">
+  <button style="--bgc: #00BCD4; --tc: #00717F;">
     <span>500</span>
-    <span style="display: none;">245.6K</span>
   </button>
-  <button class="color" style="--bgc: #00ACC1; --tc: #006774;">
+  <button style="--bgc: #00ACC1; --tc: #006774;">
     <span>600</span>
-    <span style="display: none;">97.8K</span>
   </button>
-  <button class="color" style="--bgc: #0097A7; --tc: #00D3EA;">
+  <button style="--bgc: #0097A7; --tc: #00D3EA;">
     <span>700</span>
-    <span style="display: none;">141.4K</span>
   </button>
-  <button class="color" style="--bgc: #00838F; --tc: #00B7C8;">
+  <button style="--bgc: #00838F; --tc: #00B7C8;">
     <span>800</span>
-    <span style="display: none;">125.2K</span>
   </button>
-  <button class="color" style="--bgc: #006064; --tc: #00868C;">
+  <button style="--bgc: #006064; --tc: #00868C;">
     <span>900</span>
-    <span style="display: none;">121.6K</span>
   </button>
-  <button class="color" style="--bgc: #84FFFF; --tc: #00E8E8;">
+  <button style="--bgc: #84FFFF; --tc: #00E8E8;">
     <span>A100</span>
-    <span style="display: none;">24.1K</span>
   </button>
-  <button class="color" style="--bgc: #18FFFF; --tc: #00A7A7;">
+  <button style="--bgc: #18FFFF; --tc: #00A7A7;">
     <span>A200</span>
-    <span style="display: none;">52.6K</span>
   </button>
-  <button class="color" style="--bgc: #00E5FF; --tc: #008999;">
+  <button style="--bgc: #00E5FF; --tc: #008999;">
     <span>A400</span>
-    <span style="display: none;">104.9K</span>
   </button>
-  <button class="color" style="--bgc: #00B8D4; --tc: #006E7F;">
+  <button style="--bgc: #00B8D4; --tc: #006E7F;">
     <span>A700</span>
-    <span style="display: none;">25.5K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(0, 150, 136);">Teal</label>
-  <button class="color" style="--bgc: #E0F2F1; --tc: #5DBBB6;">
+  <button style="--bgc: #E0F2F1; --tc: #5DBBB6;">
     <span>50</span>
-    <span style="display: none;">41.4K</span>
   </button>
-  <button class="color" style="--bgc: #B2DFDB; --tc: #47AAA1;">
+  <button style="--bgc: #B2DFDB; --tc: #47AAA1;">
     <span>100</span>
-    <span style="display: none;">65.9K</span>
   </button>
-  <button class="color" style="--bgc: #80CBC4; --tc: #3A8D85;">
+  <button style="--bgc: #80CBC4; --tc: #3A8D85;">
     <span>200</span>
-    <span style="display: none;">88.2K</span>
   </button>
-  <button class="color" style="--bgc: #4DB6AC; --tc: #2D6E68;">
+  <button style="--bgc: #4DB6AC; --tc: #2D6E68;">
     <span>300</span>
-    <span style="display: none;">110.9K</span>
   </button>
-  <button class="color" style="--bgc: #26A69A; --tc: #17645C;">
+  <button style="--bgc: #26A69A; --tc: #17645C;">
     <span>400</span>
-    <span style="display: none;">129.3K</span>
   </button>
-  <button class="color" style="--bgc: #009688; --tc: #00D2BE;">
+  <button style="--bgc: #009688; --tc: #00D2BE;">
     <span>500</span>
-    <span style="display: none;">283.6K</span>
   </button>
-  <button class="color" style="--bgc: #00897B; --tc: #00C0AC;">
+  <button style="--bgc: #00897B; --tc: #00C0AC;">
     <span>600</span>
-    <span style="display: none;">102K</span>
   </button>
-  <button class="color" style="--bgc: #00796B; --tc: #00A996;">
+  <button style="--bgc: #00796B; --tc: #00A996;">
     <span>700</span>
-    <span style="display: none;">102.7K</span>
   </button>
-  <button class="color" style="--bgc: #00695C; --tc: #009381;">
+  <button style="--bgc: #00695C; --tc: #009381;">
     <span>800</span>
-    <span style="display: none;">85.4K</span>
   </button>
-  <button class="color" style="--bgc: #004D40; --tc: #006C5A;">
+  <button style="--bgc: #004D40; --tc: #006C5A;">
     <span>900</span>
-    <span style="display: none;">105.3K</span>
   </button>
-  <button class="color" style="--bgc: #A7FFEB; --tc: #00FDC4;">
+  <button style="--bgc: #A7FFEB; --tc: #00FDC4;">
     <span>A100</span>
-    <span style="display: none;">19.7K</span>
   </button>
-  <button class="color" style="--bgc: #64FFDA; --tc: #00D5A2;">
+  <button style="--bgc: #64FFDA; --tc: #00D5A2;">
     <span>A200</span>
-    <span style="display: none;">26.3K</span>
   </button>
-  <button class="color" style="--bgc: #1DE9B6; --tc: #0E8F6F;">
+  <button style="--bgc: #1DE9B6; --tc: #0E8F6F;">
     <span>A400</span>
-    <span style="display: none;">101.6K</span>
   </button>
-  <button class="color" style="--bgc: #00BFA5; --tc: #007363;">
+  <button style="--bgc: #00BFA5; --tc: #007363;">
     <span>A700</span>
-    <span style="display: none;">30.8K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(76, 175, 80);">Green</label>
-  <button class="color" style="--bgc: #E8F5E9; --tc: #63BB6A;">
+  <button style="--bgc: #E8F5E9; --tc: #63BB6A;">
     <span>50</span>
-    <span style="display: none;">48.1K</span>
   </button>
-  <button class="color" style="--bgc: #C8E6C9; --tc: #52B055;">
+  <button style="--bgc: #C8E6C9; --tc: #52B055;">
     <span>100</span>
-    <span style="display: none;">76.4K</span>
   </button>
-  <button class="color" style="--bgc: #A5D6A7; --tc: #479C4B;">
+  <button style="--bgc: #A5D6A7; --tc: #479C4B;">
     <span>200</span>
-    <span style="display: none;">147K</span>
   </button>
-  <button class="color" style="--bgc: #81C784; --tc: #3D8840;">
+  <button style="--bgc: #81C784; --tc: #3D8840;">
     <span>300</span>
-    <span style="display: none;">176K</span>
   </button>
-  <button class="color" style="--bgc: #66BB6A; --tc: #357838;">
+  <button style="--bgc: #66BB6A; --tc: #357838;">
     <span>400</span>
-    <span style="display: none;">212.3K</span>
   </button>
-  <button class="color" style="--bgc: #4CAF50; --tc: #2E6930;">
+  <button style="--bgc: #4CAF50; --tc: #2E6930;">
     <span>500</span>
-    <span style="display: none;">487.8K</span>
   </button>
-  <button class="color" style="--bgc: #43A047; --tc: #28602B;">
+  <button style="--bgc: #43A047; --tc: #28602B;">
     <span>600</span>
-    <span style="display: none;">163.6K</span>
   </button>
-  <button class="color" style="--bgc: #388E3C; --tc: #58BD5D;">
+  <button style="--bgc: #388E3C; --tc: #58BD5D;">
     <span>700</span>
-    <span style="display: none;">147.9K</span>
   </button>
-  <button class="color" style="--bgc: #2E7D32; --tc: #40AF46;">
+  <button style="--bgc: #2E7D32; --tc: #40AF46;">
     <span>800</span>
-    <span style="display: none;">121.1K</span>
   </button>
-  <button class="color" style="--bgc: #1B5E20; --tc: #26842D;">
+  <button style="--bgc: #1B5E20; --tc: #26842D;">
     <span>900</span>
-    <span style="display: none;">125.5K</span>
   </button>
-  <button class="color" style="--bgc: #B9F6CA; --tc: #20E256;">
+  <button style="--bgc: #B9F6CA; --tc: #20E256;">
     <span>A100</span>
-    <span style="display: none;">18.5K</span>
   </button>
-  <button class="color" style="--bgc: #69F0AE; --tc: #13BC69;">
+  <button style="--bgc: #69F0AE; --tc: #13BC69;">
     <span>A200</span>
-    <span style="display: none;">32.6K</span>
   </button>
-  <button class="color" style="--bgc: #00E676; --tc: #008A47;">
+  <button style="--bgc: #00E676; --tc: #008A47;">
     <span>A400</span>
-    <span style="display: none;">133.4K</span>
   </button>
-  <button class="color" style="--bgc: #00C853; --tc: #007832;">
+  <button style="--bgc: #00C853; --tc: #007832;">
     <span>A700</span>
-    <span style="display: none;">67.7K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(139, 195, 74);">Light Green</label>
-  <button class="color" style="--bgc: #F1F8E9; --tc: #94CA57;">
+  <button style="--bgc: #F1F8E9; --tc: #94CA57;">
     <span>50</span>
-    <span style="display: none;">31.9K</span>
   </button>
-  <button class="color" style="--bgc: #DCEDC8; --tc: #88C244;">
+  <button style="--bgc: #DCEDC8; --tc: #88C244;">
     <span>100</span>
-    <span style="display: none;">55K</span>
   </button>
-  <button class="color" style="--bgc: #C5E1A5; --tc: #79AF3B;">
+  <button style="--bgc: #C5E1A5; --tc: #79AF3B;">
     <span>200</span>
-    <span style="display: none;">59K</span>
   </button>
-  <button class="color" style="--bgc: #AED581; --tc: #6A9A33;">
+  <button style="--bgc: #AED581; --tc: #6A9A33;">
     <span>300</span>
-    <span style="display: none;">134.1K</span>
   </button>
-  <button class="color" style="--bgc: #9CCC65; --tc: #5F892E;">
+  <button style="--bgc: #9CCC65; --tc: #5F892E;">
     <span>400</span>
-    <span style="display: none;">148.5K</span>
   </button>
-  <button class="color" style="--bgc: #8BC34A; --tc: #547928;">
+  <button style="--bgc: #8BC34A; --tc: #547928;">
     <span>500</span>
-    <span style="display: none;">289.3K</span>
   </button>
-  <button class="color" style="--bgc: #7CB342; --tc: #4A6B28;">
+  <button style="--bgc: #7CB342; --tc: #4A6B28;">
     <span>600</span>
-    <span style="display: none;">87.1K</span>
   </button>
-  <button class="color" style="--bgc: #689F38; --tc: #3E5F22;">
+  <button style="--bgc: #689F38; --tc: #3E5F22;">
     <span>700</span>
-    <span style="display: none;">72.2K</span>
   </button>
-  <button class="color" style="--bgc: #558B2F; --tc: #77C044;">
+  <button style="--bgc: #558B2F; --tc: #77C044;">
     <span>800</span>
-    <span style="display: none;">55.2K</span>
   </button>
-  <button class="color" style="--bgc: #33691E; --tc: #47932A;">
+  <button style="--bgc: #33691E; --tc: #47932A;">
     <span>900</span>
-    <span style="display: none;">51.5K</span>
   </button>
-  <button class="color" style="--bgc: #CCFF90; --tc: #81EF00;">
+  <button style="--bgc: #CCFF90; --tc: #81EF00;">
     <span>A100</span>
-    <span style="display: none;">16.3K</span>
   </button>
-  <button class="color" style="--bgc: #B2FF59; --tc: #6FCE00;">
+  <button style="--bgc: #B2FF59; --tc: #6FCE00;">
     <span>A200</span>
-    <span style="display: none;">23.5K</span>
   </button>
-  <button class="color" style="--bgc: #76FF03; --tc: #479B00;">
+  <button style="--bgc: #76FF03; --tc: #479B00;">
     <span>A400</span>
-    <span style="display: none;">126.8K</span>
   </button>
-  <button class="color" style="--bgc: #64DD17; --tc: #3C850E;">
+  <button style="--bgc: #64DD17; --tc: #3C850E;">
     <span>A700</span>
-    <span style="display: none;">44.8K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(205, 220, 57);">Lime</label>
-  <button class="color" style="--bgc: #F9FBE7; --tc: #D0DF42;">
+  <button style="--bgc: #F9FBE7; --tc: #D0DF42;">
     <span>50</span>
-    <span style="display: none;">20.5K</span>
   </button>
-  <button class="color" style="--bgc: #F0F4C3; --tc: #CBD92F;">
+  <button style="--bgc: #F0F4C3; --tc: #CBD92F;">
     <span>100</span>
-    <span style="display: none;">30.2K</span>
   </button>
-  <button class="color" style="--bgc: #E6EE9C; --tc: #B9CA23;">
+  <button style="--bgc: #E6EE9C; --tc: #B9CA23;">
     <span>200</span>
-    <span style="display: none;">32.3K</span>
   </button>
-  <button class="color" style="--bgc: #DCE775; --tc: #A4B21F;">
+  <button style="--bgc: #DCE775; --tc: #A4B21F;">
     <span>300</span>
-    <span style="display: none;">39.6K</span>
   </button>
-  <button class="color" style="--bgc: #D4E157; --tc: #939F1C;">
+  <button style="--bgc: #D4E157; --tc: #939F1C;">
     <span>400</span>
-    <span style="display: none;">46.2K</span>
   </button>
-  <button class="color" style="--bgc: #CDDC39; --tc: #838D19;">
+  <button style="--bgc: #CDDC39; --tc: #838D19;">
     <span>500</span>
-    <span style="display: none;">121.4K</span>
   </button>
-  <button class="color" style="--bgc: #C0CA33; --tc: #73791F;">
+  <button style="--bgc: #C0CA33; --tc: #73791F;">
     <span>600</span>
-    <span style="display: none;">43K</span>
   </button>
-  <button class="color" style="--bgc: #AFB42B; --tc: #696C1A;">
+  <button style="--bgc: #AFB42B; --tc: #696C1A;">
     <span>700</span>
-    <span style="display: none;">34.9K</span>
   </button>
-  <button class="color" style="--bgc: #9E9D24; --tc: #5F5E16;">
+  <button style="--bgc: #9E9D24; --tc: #5F5E16;">
     <span>800</span>
-    <span style="display: none;">26.6K</span>
   </button>
-  <button class="color" style="--bgc: #827717; --tc: #B6A720;">
+  <button style="--bgc: #827717; --tc: #B6A720;">
     <span>900</span>
-    <span style="display: none;">29.8K</span>
   </button>
-  <button class="color" style="--bgc: #F4FF81; --tc: #D2E600;">
+  <button style="--bgc: #F4FF81; --tc: #D2E600;">
     <span>A100</span>
-    <span style="display: none;">12.6K</span>
   </button>
-  <button class="color" style="--bgc: #EEFF41; --tc: #AFC000;">
+  <button style="--bgc: #EEFF41; --tc: #AFC000;">
     <span>A200</span>
-    <span style="display: none;">76.9K</span>
   </button>
-  <button class="color" style="--bgc: #C6FF00; --tc: #779900;">
+  <button style="--bgc: #C6FF00; --tc: #779900;">
     <span>A400</span>
-    <span style="display: none;">21.7K</span>
   </button>
-  <button class="color" style="--bgc: #AEEA00; --tc: #688C00;">
+  <button style="--bgc: #AEEA00; --tc: #688C00;">
     <span>A700</span>
-    <span style="display: none;">14.9K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(255, 235, 59);">Yellow</label>
-  <button class="color" style="--bgc: #FFFDE7; --tc: #FFED25;">
+  <button style="--bgc: #FFFDE7; --tc: #FFED25;">
     <span>50</span>
-    <span style="display: none;">49.4K</span>
   </button>
-  <button class="color" style="--bgc: #FFF9C4; --tc: #FFE710;">
+  <button style="--bgc: #FFF9C4; --tc: #FFE710;">
     <span>100</span>
-    <span style="display: none;">76K</span>
   </button>
-  <button class="color" style="--bgc: #FFF59D; --tc: #F7DE00;">
+  <button style="--bgc: #FFF59D; --tc: #F7DE00;">
     <span>200</span>
-    <span style="display: none;">71.6K</span>
   </button>
-  <button class="color" style="--bgc: #FFF176; --tc: #E0C900;">
+  <button style="--bgc: #FFF176; --tc: #E0C900;">
     <span>300</span>
-    <span style="display: none;">87K</span>
   </button>
-  <button class="color" style="--bgc: #FFEE58; --tc: #CEB900;">
+  <button style="--bgc: #FFEE58; --tc: #CEB900;">
     <span>400</span>
-    <span style="display: none;">89.9K</span>
   </button>
-  <button class="color" style="--bgc: #FFEB3B; --tc: #BCA900;">
+  <button style="--bgc: #FFEB3B; --tc: #BCA900;">
     <span>500</span>
-    <span style="display: none;">274.8K</span>
   </button>
-  <button class="color" style="--bgc: #FDD835; --tc: #B69402;">
+  <button style="--bgc: #FDD835; --tc: #B69402;">
     <span>600</span>
-    <span style="display: none;">144.8K</span>
   </button>
-  <button class="color" style="--bgc: #FBC02D; --tc: #AE7D03;">
+  <button style="--bgc: #FBC02D; --tc: #AE7D03;">
     <span>700</span>
-    <span style="display: none;">114.8K</span>
   </button>
-  <button class="color" style="--bgc: #F9A825; --tc: #A76905;">
+  <button style="--bgc: #F9A825; --tc: #A76905;">
     <span>800</span>
-    <span style="display: none;">80K</span>
   </button>
-  <button class="color" style="--bgc: #F57F17; --tc: #9A4C07;">
+  <button style="--bgc: #F57F17; --tc: #9A4C07;">
     <span>900</span>
-    <span style="display: none;">65.6K</span>
   </button>
-  <button class="color" style="--bgc: #FFFF8D; --tc: #EEEE00;">
+  <button style="--bgc: #FFFF8D; --tc: #EEEE00;">
     <span>A100</span>
-    <span style="display: none;">20.9K</span>
   </button>
-  <button class="color" style="--bgc: #FFFF00; --tc: #999900;">
+  <button style="--bgc: #FFFF00; --tc: #999900;">
     <span>A200</span>
-    <span style="display: none;">117.7K</span>
   </button>
-  <button class="color" style="--bgc: #FFEA00; --tc: #998C00;">
+  <button style="--bgc: #FFEA00; --tc: #998C00;">
     <span>A400</span>
-    <span style="display: none;">33.1K</span>
   </button>
-  <button class="color" style="--bgc: #FFD600; --tc: #998000;">
+  <button style="--bgc: #FFD600; --tc: #998000;">
     <span>A700</span>
-    <span style="display: none;">35.5K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(255, 193, 7);">Amber</label>
-  <button class="color" style="--bgc: #FFF8E1; --tc: #FFCB21;">
+  <button style="--bgc: #FFF8E1; --tc: #FFCB21;">
     <span>50</span>
-    <span style="display: none;">38.3K</span>
   </button>
-  <button class="color" style="--bgc: #FFECB3; --tc: #FFC105;">
+  <button style="--bgc: #FFECB3; --tc: #FFC105;">
     <span>100</span>
-    <span style="display: none;">57.6K</span>
   </button>
-  <button class="color" style="--bgc: #FFE082; --tc: #E7AE00;">
+  <button style="--bgc: #FFE082; --tc: #E7AE00;">
     <span>200</span>
-    <span style="display: none;">61.2K</span>
   </button>
-  <button class="color" style="--bgc: #FFD54F; --tc: #C89900;">
+  <button style="--bgc: #FFD54F; --tc: #C89900;">
     <span>300</span>
-    <span style="display: none;">78.1K</span>
   </button>
-  <button class="color" style="--bgc: #FFCA28; --tc: #B18500;">
+  <button style="--bgc: #FFCA28; --tc: #B18500;">
     <span>400</span>
-    <span style="display: none;">90K</span>
   </button>
-  <button class="color" style="--bgc: #FFC107; --tc: #9D7600;">
+  <button style="--bgc: #FFC107; --tc: #9D7600;">
     <span>500</span>
-    <span style="display: none;">230.6K</span>
   </button>
-  <button class="color" style="--bgc: #FFB300; --tc: #996B00;">
+  <button style="--bgc: #FFB300; --tc: #996B00;">
     <span>600</span>
-    <span style="display: none;">95.3K</span>
   </button>
-  <button class="color" style="--bgc: #FFA000; --tc: #996000;">
+  <button style="--bgc: #FFA000; --tc: #996000;">
     <span>700</span>
-    <span style="display: none;">89.5K</span>
   </button>
-  <button class="color" style="--bgc: #FF8F00; --tc: #995600;">
+  <button style="--bgc: #FF8F00; --tc: #995600;">
     <span>800</span>
-    <span style="display: none;">74.4K</span>
   </button>
-  <button class="color" style="--bgc: #FF6F00; --tc: #994300;">
+  <button style="--bgc: #FF6F00; --tc: #994300;">
     <span>900</span>
-    <span style="display: none;">83.6K</span>
   </button>
-  <button class="color" style="--bgc: #FFE57F; --tc: #E5B700;">
+  <button style="--bgc: #FFE57F; --tc: #E5B700;">
     <span>A100</span>
-    <span style="display: none;">75.5K</span>
   </button>
-  <button class="color" style="--bgc: #FFD740; --tc: #BF9700;">
+  <button style="--bgc: #FFD740; --tc: #BF9700;">
     <span>A200</span>
-    <span style="display: none;">16.8K</span>
   </button>
-  <button class="color" style="--bgc: #FFC400; --tc: #997600;">
+  <button style="--bgc: #FFC400; --tc: #997600;">
     <span>A400</span>
-    <span style="display: none;">22.6K</span>
   </button>
-  <button class="color" style="--bgc: #FFAB00; --tc: #996700;">
+  <button style="--bgc: #FFAB00; --tc: #996700;">
     <span>A700</span>
-    <span style="display: none;">26.8K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(255, 152, 0);">Orange</label>
-  <button class="color" style="--bgc: #FFF3E0; --tc: #FFA920;">
+  <button style="--bgc: #FFF3E0; --tc: #FFA920;">
     <span>50</span>
-    <span style="display: none;">35.7K</span>
   </button>
-  <button class="color" style="--bgc: #FFE0B2; --tc: #FF9A05;">
+  <button style="--bgc: #FFE0B2; --tc: #FF9A05;">
     <span>100</span>
-    <span style="display: none;">55.8K</span>
   </button>
-  <button class="color" style="--bgc: #FFCC80; --tc: #E68A00;">
+  <button style="--bgc: #FFCC80; --tc: #E68A00;">
     <span>200</span>
-    <span style="display: none;">63K</span>
   </button>
-  <button class="color" style="--bgc: #FFB74D; --tc: #C77700;">
+  <button style="--bgc: #FFB74D; --tc: #C77700;">
     <span>300</span>
-    <span style="display: none;">80.8K</span>
   </button>
-  <button class="color" style="--bgc: #FFA726; --tc: #B06900;">
+  <button style="--bgc: #FFA726; --tc: #B06900;">
     <span>400</span>
-    <span style="display: none;">94K</span>
   </button>
-  <button class="color" style="--bgc: #FF9800; --tc: #995B00;">
+  <button style="--bgc: #FF9800; --tc: #995B00;">
     <span>500</span>
-    <span style="display: none;">239.4K</span>
   </button>
-  <button class="color" style="--bgc: #FB8C00; --tc: #975400;">
+  <button style="--bgc: #FB8C00; --tc: #975400;">
     <span>600</span>
-    <span style="display: none;">90.6K</span>
   </button>
-  <button class="color" style="--bgc: #F57C00; --tc: #934A00;">
+  <button style="--bgc: #F57C00; --tc: #934A00;">
     <span>700</span>
-    <span style="display: none;">86.1K</span>
   </button>
-  <button class="color" style="--bgc: #EF6C00; --tc: #8F4100;">
+  <button style="--bgc: #EF6C00; --tc: #8F4100;">
     <span>800</span>
-    <span style="display: none;">71.8K</span>
   </button>
-  <button class="color" style="--bgc: #E65100; --tc: #FF8543;">
+  <button style="--bgc: #E65100; --tc: #FF8543;">
     <span>900</span>
-    <span style="display: none;">75.3K</span>
   </button>
-  <button class="color" style="--bgc: #FFD180; --tc: #E69300;">
+  <button style="--bgc: #FFD180; --tc: #E69300;">
     <span>A100</span>
-    <span style="display: none;">13.7K</span>
   </button>
-  <button class="color" style="--bgc: #FFAB40; --tc: #BF6B00;">
+  <button style="--bgc: #FFAB40; --tc: #BF6B00;">
     <span>A200</span>
-    <span style="display: none;">18.1K</span>
   </button>
-  <button class="color" style="--bgc: #FF9100; --tc: #995700;">
+  <button style="--bgc: #FF9100; --tc: #995700;">
     <span>A400</span>
-    <span style="display: none;">25.9K</span>
   </button>
-  <button class="color" style="--bgc: #FF6D00; --tc: #994100;">
+  <button style="--bgc: #FF6D00; --tc: #994100;">
     <span>A700</span>
-    <span style="display: none;">31.4K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(255, 87, 34);">Deep Orange</label>
-  <button class="color" style="--bgc: #FBE9E7; --tc: #DF5242;">
+  <button style="--bgc: #FBE9E7; --tc: #DF5242;">
     <span>50</span>
-    <span style="display: none;">30.3K</span>
   </button>
-  <button class="color" style="--bgc: #FFCCBC; --tc: #FF450B;">
+  <button style="--bgc: #FFCCBC; --tc: #FF450B;">
     <span>100</span>
-    <span style="display: none;">50.2K</span>
   </button>
-  <button class="color" style="--bgc: #FFAB91; --tc: #F03900;">
+  <button style="--bgc: #FFAB91; --tc: #F03900;">
     <span>200</span>
-    <span style="display: none;">55.7K</span>
   </button>
-  <button class="color" style="--bgc: #FF8A65; --tc: #D63300;">
+  <button style="--bgc: #FF8A65; --tc: #D63300;">
     <span>300</span>
-    <span style="display: none;">74.9K</span>
   </button>
-  <button class="color" style="--bgc: #FF7043; --tc: #C12E00;">
+  <button style="--bgc: #FF7043; --tc: #C12E00;">
     <span>400</span>
-    <span style="display: none;">100.4K</span>
   </button>
-  <button class="color" style="--bgc: #FF5722; --tc: #FFAF96;">
+  <button style="--bgc: #FF5722; --tc: #FFAF96;">
     <span>500</span>
-    <span style="display: none;">275.2K</span>
   </button>
-  <button class="color" style="--bgc: #F4511E; --tc: #F9A286;">
+  <button style="--bgc: #F4511E; --tc: #F9A286;">
     <span>600</span>
-    <span style="display: none;">82K</span>
   </button>
-  <button class="color" style="--bgc: #E64A19; --tc: #F09275;">
+  <button style="--bgc: #E64A19; --tc: #F09275;">
     <span>700</span>
-    <span style="display: none;">70.3K</span>
   </button>
-  <button class="color" style="--bgc: #D84315; --tc: #EF7F5D;">
+  <button style="--bgc: #D84315; --tc: #EF7F5D;">
     <span>800</span>
-    <span style="display: none;">58K</span>
   </button>
-  <button class="color" style="--bgc: #BF360C; --tc: #F2592B;">
+  <button style="--bgc: #BF360C; --tc: #F2592B;">
     <span>900</span>
-    <span style="display: none;">77.7K</span>
   </button>
-  <button class="color" style="--bgc: #FF9E80; --tc: #E63600;">
+  <button style="--bgc: #FF9E80; --tc: #E63600;">
     <span>A100</span>
-    <span style="display: none;">18.3K</span>
   </button>
-  <button class="color" style="--bgc: #FF6E40; --tc: #BF2E00;">
+  <button style="--bgc: #FF6E40; --tc: #BF2E00;">
     <span>A200</span>
-    <span style="display: none;">21.7K</span>
   </button>
-  <button class="color" style="--bgc: #FF3D00; --tc: #FF8B66;">
+  <button style="--bgc: #FF3D00; --tc: #FF8B66;">
     <span>A400</span>
-    <span style="display: none;">56.4K</span>
   </button>
-  <button class="color" style="--bgc: #DD2C00; --tc: #FF5E36;">
+  <button style="--bgc: #DD2C00; --tc: #FF5E36;">
     <span>A700</span>
-    <span style="display: none;">44.7K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(121, 85, 72);">Brown</label>
-  <button class="color" style="--bgc: #EFEBE9; --tc: #A0887C;">
+  <button style="--bgc: #EFEBE9; --tc: #A0887C;">
     <span>50</span>
-    <span style="display: none;">34K</span>
   </button>
-  <button class="color" style="--bgc: #D7CCC8; --tc: #907369;">
+  <button style="--bgc: #D7CCC8; --tc: #907369;">
     <span>100</span>
-    <span style="display: none;">41.1K</span>
   </button>
-  <button class="color" style="--bgc: #BCAAA4; --tc: #7A625A;">
+  <button style="--bgc: #BCAAA4; --tc: #7A625A;">
     <span>200</span>
-    <span style="display: none;">41.3K</span>
   </button>
-  <button class="color" style="--bgc: #A1887F; --tc: #645049;">
+  <button style="--bgc: #A1887F; --tc: #645049;">
     <span>300</span>
-    <span style="display: none;">47.9K</span>
   </button>
-  <button class="color" style="--bgc: #8D6E63; --tc: #B7A199;">
+  <button style="--bgc: #8D6E63; --tc: #B7A199;">
     <span>400</span>
-    <span style="display: none;">56.4K</span>
   </button>
-  <button class="color" style="--bgc: #795548; --tc: #A67969;">
+  <button style="--bgc: #795548; --tc: #A67969;">
     <span>500</span>
-    <span style="display: none;">125.2K</span>
   </button>
-  <button class="color" style="--bgc: #6D4C41; --tc: #996A5B;">
+  <button style="--bgc: #6D4C41; --tc: #996A5B;">
     <span>600</span>
-    <span style="display: none;">45.2K</span>
   </button>
-  <button class="color" style="--bgc: #5D4037; --tc: #825A4D;">
+  <button style="--bgc: #5D4037; --tc: #825A4D;">
     <span>700</span>
-    <span style="display: none;">49.2K</span>
   </button>
-  <button class="color" style="--bgc: #4E342E; --tc: #6D4940;">
+  <button style="--bgc: #4E342E; --tc: #6D4940;">
     <span>800</span>
-    <span style="display: none;">46.3K</span>
   </button>
-  <button class="color" style="--bgc: #3E2723; --tc: #573731;">
+  <button style="--bgc: #3E2723; --tc: #573731;">
     <span>900</span>
-    <span style="display: none;">65.8K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(158, 158, 158);">Grey</label>
-  <button class="color" style="--bgc: #FAFAFA; --tc: #969696;">
+  <button style="--bgc: #FAFAFA; --tc: #969696;">
     <span>50</span>
-    <span style="display: none;">264.5K</span>
   </button>
-  <button class="color" style="--bgc: #F5F5F5; --tc: #939393;">
+  <button style="--bgc: #F5F5F5; --tc: #939393;">
     <span>100</span>
-    <span style="display: none;">1M</span>
   </button>
-  <button class="color" style="--bgc: #EEEEEE; --tc: #8F8F8F;">
+  <button style="--bgc: #EEEEEE; --tc: #8F8F8F;">
     <span>200</span>
-    <span style="display: none;">263.3K</span>
   </button>
-  <button class="color" style="--bgc: #E0E0E0; --tc: #868686;">
+  <button style="--bgc: #E0E0E0; --tc: #868686;">
     <span>300</span>
-    <span style="display: none;">324.9K</span>
   </button>
-  <button class="color" style="--bgc: #BDBDBD; --tc: #717171;">
+  <button style="--bgc: #BDBDBD; --tc: #717171;">
     <span>400</span>
-    <span style="display: none;">279.9K</span>
   </button>
-  <button class="color" style="--bgc: #9E9E9E; --tc: #5F5F5F;">
+  <button style="--bgc: #9E9E9E; --tc: #5F5F5F;">
     <span>500</span>
-    <span style="display: none;">336.3K</span>
   </button>
-  <button class="color" style="--bgc: #757575; --tc: #A4A4A4;">
+  <button style="--bgc: #757575; --tc: #A4A4A4;">
     <span>600</span>
-    <span style="display: none;">198K</span>
   </button>
-  <button class="color" style="--bgc: #616161; --tc: #888888;">
+  <button style="--bgc: #616161; --tc: #888888;">
     <span>700</span>
-    <span style="display: none;">197.3K</span>
   </button>
-  <button class="color" style="--bgc: #424242; --tc: #5C5C5C;">
+  <button style="--bgc: #424242; --tc: #5C5C5C;">
     <span>800</span>
-    <span style="display: none;">271.7K</span>
   </button>
-  <button class="color" style="--bgc: #212121; --tc: #2E2E2E;">
+  <button style="--bgc: #212121; --tc: #2E2E2E;">
     <span>900</span>
-    <span style="display: none;">392K</span>
   </button>
   <div class="material-colors__break"></div>
   <label style="color: rgb(96, 125, 139);">Blue Grey</label>
-  <button class="color" style="--bgc: #ECEFF1; --tc: #7E92A0;">
+  <button style="--bgc: #ECEFF1; --tc: #7E92A0;">
     <span>50</span>
-    <span style="display: none;">186.3K</span>
   </button>
-  <button class="color" style="--bgc: #CFD8DC; --tc: #6C8894;">
+  <button style="--bgc: #CFD8DC; --tc: #6C8894;">
     <span>100</span>
-    <span style="display: none;">182.2K</span>
   </button>
-  <button class="color" style="--bgc: #B0BEC5; --tc: #5F7681;">
+  <button style="--bgc: #B0BEC5; --tc: #5F7681;">
     <span>200</span>
-    <span style="display: none;">143.1K</span>
   </button>
-  <button class="color" style="--bgc: #90A4AE; --tc: #50646E;">
+  <button style="--bgc: #90A4AE; --tc: #50646E;">
     <span>300</span>
-    <span style="display: none;">129K</span>
   </button>
-  <button class="color" style="--bgc: #78909C; --tc: #465760;">
+  <button style="--bgc: #78909C; --tc: #465760;">
     <span>400</span>
-    <span style="display: none;">118.7K</span>
   </button>
-  <button class="color" style="--bgc: #607D8B; --tc: #94AAB5;">
+  <button style="--bgc: #607D8B; --tc: #94AAB5;">
     <span>500</span>
-    <span style="display: none;">269.5K</span>
   </button>
-  <button class="color" style="--bgc: #546E7A; --tc: #7C98A5;">
+  <button style="--bgc: #546E7A; --tc: #7C98A5;">
     <span>600</span>
-    <span style="display: none;">123.6K</span>
   </button>
-  <button class="color" style="--bgc: #455A64; --tc: #617E8C;">
+  <button style="--bgc: #455A64; --tc: #617E8C;">
     <span>700</span>
-    <span style="display: none;">151.2K</span>
   </button>
-  <button class="color" style="--bgc: #37474F; --tc: #4D636F;">
+  <button style="--bgc: #37474F; --tc: #4D636F;">
     <span>800</span>
-    <span style="display: none;">171.3K</span>
   </button>
-  <button class="color" style="--bgc: #263238; --tc: #35464E;">
+  <button style="--bgc: #263238; --tc: #35464E;">
     <span>900</span>
-    <span style="display: none;">253K</span>
   </button>
   <div class="material-colors__break"></div>
-  <div class="material-colors--ad"></div>
 </div>;
 
 <div class="flex-grow palettes overflow-auto h-full">
@@ -1454,58 +1199,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(127, 29, 29); --hover-color: #B22929;"
-  >
+  <button style="background-color: rgb(127, 29, 29); --hover-color: #B22929;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(153, 27, 27); --hover-color: #D62626;"
-  >
+  <button style="background-color: rgb(153, 27, 27); --hover-color: #D62626;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(185, 28, 28); --hover-color: #E34747;"
-  >
+  <button style="background-color: rgb(185, 28, 28); --hover-color: #E34747;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(220, 38, 38); --hover-color: #EA7F7F;"
-  >
+  <button style="background-color: rgb(220, 38, 38); --hover-color: #EA7F7F;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(239, 68, 68); --hover-color: #F9B5B5;"
-  >
+  <button style="background-color: rgb(239, 68, 68); --hover-color: #F9B5B5;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(248, 113, 113); --hover-color: #CE0A0A;"
-  >
+  <button style="background-color: rgb(248, 113, 113); --hover-color: #CE0A0A;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(252, 165, 165); --hover-color: #F20808;"
-  >
+  <button style="background-color: rgb(252, 165, 165); --hover-color: #F20808;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(254, 202, 202); --hover-color: #FB1717;"
-  >
+  <button style="background-color: rgb(254, 202, 202); --hover-color: #FB1717;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(254, 226, 226); --hover-color: #F82828;"
-  >
+  <button style="background-color: rgb(254, 226, 226); --hover-color: #F82828;">
     <span>100</span>
   </button>
   <button
@@ -1521,58 +1239,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(124, 45, 18); --hover-color: #AE3F19;"
-  >
+  <button style="background-color: rgb(124, 45, 18); --hover-color: #AE3F19;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(154, 52, 18); --hover-color: #D84919;"
-  >
+  <button style="background-color: rgb(154, 52, 18); --hover-color: #D84919;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(194, 65, 12); --hover-color: #F2672E;"
-  >
+  <button style="background-color: rgb(194, 65, 12); --hover-color: #F2672E;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(234, 88, 12); --hover-color: #F79561;"
-  >
+  <button style="background-color: rgb(234, 88, 12); --hover-color: #F79561;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(249, 115, 22); --hover-color: #9F4304;"
-  >
+  <button style="background-color: rgb(249, 115, 22); --hover-color: #9F4304;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(251, 146, 60); --hover-color: #B75404;"
-  >
+  <button style="background-color: rgb(251, 146, 60); --hover-color: #B75404;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(253, 186, 116); --hover-color: #DA7103;"
-  >
+  <button style="background-color: rgb(253, 186, 116); --hover-color: #DA7103;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(254, 215, 170); --hover-color: #FB8803;"
-  >
+  <button style="background-color: rgb(254, 215, 170); --hover-color: #FB8803;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(255, 237, 213); --hover-color: #FF9D1A;"
-  >
+  <button style="background-color: rgb(255, 237, 213); --hover-color: #FF9D1A;">
     <span>100</span>
   </button>
   <button
@@ -1588,58 +1279,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(120, 53, 15); --hover-color: #A84A15;"
-  >
+  <button style="background-color: rgb(120, 53, 15); --hover-color: #A84A15;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(146, 64, 14); --hover-color: #CC5A14;"
-  >
+  <button style="background-color: rgb(146, 64, 14); --hover-color: #CC5A14;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(180, 83, 9); --hover-color: #F37515;"
-  >
+  <button style="background-color: rgb(180, 83, 9); --hover-color: #F37515;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(217, 119, 6); --hover-color: #824704;"
-  >
+  <button style="background-color: rgb(217, 119, 6); --hover-color: #824704;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(245, 158, 11); --hover-color: #945F06;"
-  >
+  <button style="background-color: rgb(245, 158, 11); --hover-color: #945F06;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(251, 191, 36); --hover-color: #A97B03;"
-  >
+  <button style="background-color: rgb(251, 191, 36); --hover-color: #A97B03;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(252, 211, 77); --hover-color: #C29503;"
-  >
+  <button style="background-color: rgb(252, 211, 77); --hover-color: #C29503;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(253, 230, 138); --hover-color: #E7B904;"
-  >
+  <button style="background-color: rgb(253, 230, 138); --hover-color: #E7B904;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(254, 243, 199); --hover-color: #FBCD15;"
-  >
+  <button style="background-color: rgb(254, 243, 199); --hover-color: #FBCD15;">
     <span>100</span>
   </button>
   <button
@@ -1655,58 +1319,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(113, 63, 18); --hover-color: #9E5819;"
-  >
+  <button style="background-color: rgb(113, 63, 18); --hover-color: #9E5819;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(133, 77, 14); --hover-color: #BA6C14;"
-  >
+  <button style="background-color: rgb(133, 77, 14); --hover-color: #BA6C14;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(161, 98, 7); --hover-color: #E1890A;"
-  >
+  <button style="background-color: rgb(161, 98, 7); --hover-color: #E1890A;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(202, 138, 4); --hover-color: #795302;"
-  >
+  <button style="background-color: rgb(202, 138, 4); --hover-color: #795302;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(234, 179, 8); --hover-color: #8C6B05;"
-  >
+  <button style="background-color: rgb(234, 179, 8); --hover-color: #8C6B05;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(250, 204, 21); --hover-color: #9F8003;"
-  >
+  <button style="background-color: rgb(250, 204, 21); --hover-color: #9F8003;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(253, 224, 71); --hover-color: #C0A202;"
-  >
+  <button style="background-color: rgb(253, 224, 71); --hover-color: #C0A202;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(254, 240, 138); --hover-color: #E9CD02;"
-  >
+  <button style="background-color: rgb(254, 240, 138); --hover-color: #E9CD02;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(254, 249, 195); --hover-color: #FBE712;"
-  >
+  <button style="background-color: rgb(254, 249, 195); --hover-color: #FBE712;">
     <span>100</span>
   </button>
   <button
@@ -1722,58 +1359,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(54, 83, 20); --hover-color: #4C741C;"
-  >
+  <button style="background-color: rgb(54, 83, 20); --hover-color: #4C741C;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(63, 98, 18); --hover-color: #588919;"
-  >
+  <button style="background-color: rgb(63, 98, 18); --hover-color: #588919;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(77, 124, 15); --hover-color: #6CAE15;"
-  >
+  <button style="background-color: rgb(77, 124, 15); --hover-color: #6CAE15;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(101, 163, 13); --hover-color: #8DE412;"
-  >
+  <button style="background-color: rgb(101, 163, 13); --hover-color: #8DE412;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(132, 204, 22); --hover-color: #4F7A0D;"
-  >
+  <button style="background-color: rgb(132, 204, 22); --hover-color: #4F7A0D;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(163, 230, 53); --hover-color: #659713;"
-  >
+  <button style="background-color: rgb(163, 230, 53); --hover-color: #659713;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(190, 242, 100); --hover-color: #7EBD10;"
-  >
+  <button style="background-color: rgb(190, 242, 100); --hover-color: #7EBD10;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(217, 249, 157); --hover-color: #9BE60E;"
-  >
+  <button style="background-color: rgb(217, 249, 157); --hover-color: #9BE60E;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(236, 252, 203); --hover-color: #ADF21F;"
-  >
+  <button style="background-color: rgb(236, 252, 203); --hover-color: #ADF21F;">
     <span>100</span>
   </button>
   <button
@@ -1789,58 +1399,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(20, 83, 45); --hover-color: #1C743F;"
-  >
+  <button style="background-color: rgb(20, 83, 45); --hover-color: #1C743F;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(22, 101, 52); --hover-color: #1F8D49;"
-  >
+  <button style="background-color: rgb(22, 101, 52); --hover-color: #1F8D49;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(21, 128, 61); --hover-color: #1DB355;"
-  >
+  <button style="background-color: rgb(21, 128, 61); --hover-color: #1DB355;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(22, 163, 74); --hover-color: #22E168;"
-  >
+  <button style="background-color: rgb(22, 163, 74); --hover-color: #22E168;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(34, 197, 94); --hover-color: #147638;"
-  >
+  <button style="background-color: rgb(34, 197, 94); --hover-color: #147638;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(74, 222, 128); --hover-color: #1B9648;"
-  >
+  <button style="background-color: rgb(74, 222, 128); --hover-color: #1B9648;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(134, 239, 172); --hover-color: #1AC658;"
-  >
+  <button style="background-color: rgb(134, 239, 172); --hover-color: #1AC658;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(187, 247, 208); --hover-color: #20E565;"
-  >
+  <button style="background-color: rgb(187, 247, 208); --hover-color: #20E565;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(220, 252, 231); --hover-color: #2EED70;"
-  >
+  <button style="background-color: rgb(220, 252, 231); --hover-color: #2EED70;">
     <span>100</span>
   </button>
   <button
@@ -1856,58 +1439,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(6, 78, 59); --hover-color: #086D53;"
-  >
+  <button style="background-color: rgb(6, 78, 59); --hover-color: #086D53;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(6, 95, 70); --hover-color: #088562;"
-  >
+  <button style="background-color: rgb(6, 95, 70); --hover-color: #088562;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(4, 120, 87); --hover-color: #06A87A;"
-  >
+  <button style="background-color: rgb(4, 120, 87); --hover-color: #06A87A;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(5, 150, 105); --hover-color: #07D293;"
-  >
+  <button style="background-color: rgb(5, 150, 105); --hover-color: #07D293;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(16, 185, 129); --hover-color: #0A6F4D;"
-  >
+  <button style="background-color: rgb(16, 185, 129); --hover-color: #0A6F4D;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(52, 211, 153); --hover-color: #1C825D;"
-  >
+  <button style="background-color: rgb(52, 211, 153); --hover-color: #1C825D;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(110, 231, 183); --hover-color: #1DB075;"
-  >
+  <button style="background-color: rgb(110, 231, 183); --hover-color: #1DB075;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(167, 243, 208); --hover-color: #1ED882;"
-  >
+  <button style="background-color: rgb(167, 243, 208); --hover-color: #1ED882;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(209, 250, 229); --hover-color: #2BE887;"
-  >
+  <button style="background-color: rgb(209, 250, 229); --hover-color: #2BE887;">
     <span>100</span>
   </button>
   <button
@@ -1923,58 +1479,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(19, 78, 74); --hover-color: #1B6D68;"
-  >
+  <button style="background-color: rgb(19, 78, 74); --hover-color: #1B6D68;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(17, 94, 89); --hover-color: #18847D;"
-  >
+  <button style="background-color: rgb(17, 94, 89); --hover-color: #18847D;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(15, 118, 110); --hover-color: #15A59A;"
-  >
+  <button style="background-color: rgb(15, 118, 110); --hover-color: #15A59A;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(13, 148, 136); --hover-color: #12CFBE;"
-  >
+  <button style="background-color: rgb(13, 148, 136); --hover-color: #12CFBE;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(20, 184, 166); --hover-color: #0C6E64;"
-  >
+  <button style="background-color: rgb(20, 184, 166); --hover-color: #0C6E64;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(45, 212, 191); --hover-color: #1A8073;"
-  >
+  <button style="background-color: rgb(45, 212, 191); --hover-color: #1A8073;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(94, 234, 212); --hover-color: #17AE96;"
-  >
+  <button style="background-color: rgb(94, 234, 212); --hover-color: #17AE96;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(153, 246, 228); --hover-color: #13DCB5;"
-  >
+  <button style="background-color: rgb(153, 246, 228); --hover-color: #13DCB5;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(204, 251, 241); --hover-color: #23EEC3;"
-  >
+  <button style="background-color: rgb(204, 251, 241); --hover-color: #23EEC3;">
     <span>100</span>
   </button>
   <button
@@ -1990,58 +1519,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(22, 78, 99); --hover-color: #1F6D8B;"
-  >
+  <button style="background-color: rgb(22, 78, 99); --hover-color: #1F6D8B;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(21, 94, 117); --hover-color: #1D84A4;"
-  >
+  <button style="background-color: rgb(21, 94, 117); --hover-color: #1D84A4;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(14, 116, 144); --hover-color: #14A2CA;"
-  >
+  <button style="background-color: rgb(14, 116, 144); --hover-color: #14A2CA;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(8, 145, 178); --hover-color: #10C8F4;"
-  >
+  <button style="background-color: rgb(8, 145, 178); --hover-color: #10C8F4;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(6, 182, 212); --hover-color: #046D7F;"
-  >
+  <button style="background-color: rgb(6, 182, 212); --hover-color: #046D7F;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(34, 211, 238); --hover-color: #0C8598;"
-  >
+  <button style="background-color: rgb(34, 211, 238); --hover-color: #0C8598;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(103, 232, 249); --hover-color: #08B4CB;"
-  >
+  <button style="background-color: rgb(103, 232, 249); --hover-color: #08B4CB;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(165, 243, 252); --hover-color: #08DAF2;"
-  >
+  <button style="background-color: rgb(165, 243, 252); --hover-color: #08DAF2;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(207, 250, 254); --hover-color: #1AE7FA;"
-  >
+  <button style="background-color: rgb(207, 250, 254); --hover-color: #1AE7FA;">
     <span>100</span>
   </button>
   <button
@@ -2057,58 +1559,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(12, 74, 110); --hover-color: #11689A;"
-  >
+  <button style="background-color: rgb(12, 74, 110); --hover-color: #11689A;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(7, 89, 133); --hover-color: #0A7DBA;"
-  >
+  <button style="background-color: rgb(7, 89, 133); --hover-color: #0A7DBA;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(3, 105, 161); --hover-color: #0493E1;"
-  >
+  <button style="background-color: rgb(3, 105, 161); --hover-color: #0493E1;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(2, 132, 199); --hover-color: #1DB1FD;"
-  >
+  <button style="background-color: rgb(2, 132, 199); --hover-color: #1DB1FD;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(14, 165, 233); --hover-color: #64C8F6;"
-  >
+  <button style="background-color: rgb(14, 165, 233); --hover-color: #64C8F6;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(56, 189, 248); --hover-color: #067CB0;"
-  >
+  <button style="background-color: rgb(56, 189, 248); --hover-color: #067CB0;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(125, 211, 252); --hover-color: #0597DD;"
-  >
+  <button style="background-color: rgb(125, 211, 252); --hover-color: #0597DD;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(186, 230, 253); --hover-color: #0FA8F8;"
-  >
+  <button style="background-color: rgb(186, 230, 253); --hover-color: #0FA8F8;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(224, 242, 254); --hover-color: #27A4F8;"
-  >
+  <button style="background-color: rgb(224, 242, 254); --hover-color: #27A4F8;">
     <span>100</span>
   </button>
   <button
@@ -2124,58 +1599,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(30, 58, 138); --hover-color: #2A51C1;"
-  >
+  <button style="background-color: rgb(30, 58, 138); --hover-color: #2A51C1;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(30, 64, 175); --hover-color: #4166DE;"
-  >
+  <button style="background-color: rgb(30, 64, 175); --hover-color: #4166DE;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(29, 78, 216); --hover-color: #6C8DEB;"
-  >
+  <button style="background-color: rgb(29, 78, 216); --hover-color: #6C8DEB;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(37, 99, 235); --hover-color: #89AAF4;"
-  >
+  <button style="background-color: rgb(37, 99, 235); --hover-color: #89AAF4;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(59, 130, 246); --hover-color: #B0CCFB;"
-  >
+  <button style="background-color: rgb(59, 130, 246); --hover-color: #B0CCFB;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(96, 165, 250); --hover-color: #065EC9;"
-  >
+  <button style="background-color: rgb(96, 165, 250); --hover-color: #065EC9;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(147, 197, 253); --hover-color: #0471EC;"
-  >
+  <button style="background-color: rgb(147, 197, 253); --hover-color: #0471EC;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(191, 219, 254); --hover-color: #1078FB;"
-  >
+  <button style="background-color: rgb(191, 219, 254); --hover-color: #1078FB;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(219, 234, 254); --hover-color: #237FF9;"
-  >
+  <button style="background-color: rgb(219, 234, 254); --hover-color: #237FF9;">
     <span>100</span>
   </button>
   <button
@@ -2191,58 +1639,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(49, 46, 129); --hover-color: #4540B5;"
-  >
+  <button style="background-color: rgb(49, 46, 129); --hover-color: #4540B5;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(55, 48, 163); --hover-color: #6059CE;"
-  >
+  <button style="background-color: rgb(55, 48, 163); --hover-color: #6059CE;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(67, 56, 202); --hover-color: #9089E0;"
-  >
+  <button style="background-color: rgb(67, 56, 202); --hover-color: #9089E0;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(79, 70, 229); --hover-color: #B3AFF4;"
-  >
+  <button style="background-color: rgb(79, 70, 229); --hover-color: #B3AFF4;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(99, 102, 241); --hover-color: #E0E0FC;"
-  >
+  <button style="background-color: rgb(99, 102, 241); --hover-color: #E0E0FC;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(129, 140, 248); --hover-color: #0C1FD6;"
-  >
+  <button style="background-color: rgb(129, 140, 248); --hover-color: #0C1FD6;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(165, 180, 252); --hover-color: #0830F2;"
-  >
+  <button style="background-color: rgb(165, 180, 252); --hover-color: #0830F2;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(199, 210, 254); --hover-color: #1543FB;"
-  >
+  <button style="background-color: rgb(199, 210, 254); --hover-color: #1543FB;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(224, 231, 255); --hover-color: #2053FF;"
-  >
+  <button style="background-color: rgb(224, 231, 255); --hover-color: #2053FF;">
     <span>100</span>
   </button>
   <button
@@ -2258,58 +1679,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(76, 29, 149); --hover-color: #6A29D1;"
-  >
+  <button style="background-color: rgb(76, 29, 149); --hover-color: #6A29D1;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(91, 33, 182); --hover-color: #864EDF;"
-  >
+  <button style="background-color: rgb(91, 33, 182); --hover-color: #864EDF;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(109, 40, 217); --hover-color: #A87FE8;"
-  >
+  <button style="background-color: rgb(109, 40, 217); --hover-color: #A87FE8;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(124, 58, 237); --hover-color: #C4A6F7;"
-  >
+  <button style="background-color: rgb(124, 58, 237); --hover-color: #C4A6F7;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(139, 92, 246); --hover-color: #E6DCFD;"
-  >
+  <button style="background-color: rgb(139, 92, 246); --hover-color: #E6DCFD;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(167, 139, 250); --hover-color: #400AE0;"
-  >
+  <button style="background-color: rgb(167, 139, 250); --hover-color: #400AE0;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(196, 181, 253); --hover-color: #3D0CF8;"
-  >
+  <button style="background-color: rgb(196, 181, 253); --hover-color: #3D0CF8;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(221, 214, 254); --hover-color: #451FFA;"
-  >
+  <button style="background-color: rgb(221, 214, 254); --hover-color: #451FFA;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(237, 233, 254); --hover-color: #552FF6;"
-  >
+  <button style="background-color: rgb(237, 233, 254); --hover-color: #552FF6;">
     <span>100</span>
   </button>
   <button
@@ -2325,58 +1719,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(88, 28, 135); --hover-color: #7B27BD;"
-  >
+  <button style="background-color: rgb(88, 28, 135); --hover-color: #7B27BD;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(107, 33, 168); --hover-color: #9440D9;"
-  >
+  <button style="background-color: rgb(107, 33, 168); --hover-color: #9440D9;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(126, 34, 206); --hover-color: #AC6AE6;"
-  >
+  <button style="background-color: rgb(126, 34, 206); --hover-color: #AC6AE6;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(147, 51, 234); --hover-color: #CA9AF5;"
-  >
+  <button style="background-color: rgb(147, 51, 234); --hover-color: #CA9AF5;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(168, 85, 247); --hover-color: #6609BE;"
-  >
+  <button style="background-color: rgb(168, 85, 247); --hover-color: #6609BE;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(192, 132, 252); --hover-color: #7305E1;"
-  >
+  <button style="background-color: rgb(192, 132, 252); --hover-color: #7305E1;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(216, 180, 254); --hover-color: #7F09FC;"
-  >
+  <button style="background-color: rgb(216, 180, 254); --hover-color: #7F09FC;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(233, 213, 255); --hover-color: #871AFF;"
-  >
+  <button style="background-color: rgb(233, 213, 255); --hover-color: #871AFF;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(243, 232, 255); --hover-color: #8D25FF;"
-  >
+  <button style="background-color: rgb(243, 232, 255); --hover-color: #8D25FF;">
     <span>100</span>
   </button>
   <button
@@ -2392,58 +1759,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(112, 26, 117); --hover-color: #9D24A4;"
-  >
+  <button style="background-color: rgb(112, 26, 117); --hover-color: #9D24A4;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(134, 25, 143); --hover-color: #BC23C8;"
-  >
+  <button style="background-color: rgb(134, 25, 143); --hover-color: #BC23C8;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(162, 28, 175); --hover-color: #D13CE0;"
-  >
+  <button style="background-color: rgb(162, 28, 175); --hover-color: #D13CE0;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(192, 38, 211); --hover-color: #DA76E6;"
-  >
+  <button style="background-color: rgb(192, 38, 211); --hover-color: #DA76E6;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(217, 70, 239); --hover-color: #960FAB;"
-  >
+  <button style="background-color: rgb(217, 70, 239); --hover-color: #960FAB;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(232, 121, 249); --hover-color: #BA0AD4;"
-  >
+  <button style="background-color: rgb(232, 121, 249); --hover-color: #BA0AD4;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(240, 171, 252); --hover-color: #D209F5;"
-  >
+  <button style="background-color: rgb(240, 171, 252); --hover-color: #D209F5;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(245, 208, 254); --hover-color: #CF1BFA;"
-  >
+  <button style="background-color: rgb(245, 208, 254); --hover-color: #CF1BFA;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(250, 232, 255); --hover-color: #D025FF;"
-  >
+  <button style="background-color: rgb(250, 232, 255); --hover-color: #D025FF;">
     <span>100</span>
   </button>
   <button
@@ -2459,58 +1799,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(131, 24, 67); --hover-color: #B7225E;"
-  >
+  <button style="background-color: rgb(131, 24, 67); --hover-color: #B7225E;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(157, 23, 77); --hover-color: #DC206C;"
-  >
+  <button style="background-color: rgb(157, 23, 77); --hover-color: #DC206C;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(190, 24, 93); --hover-color: #E74488;"
-  >
+  <button style="background-color: rgb(190, 24, 93); --hover-color: #E74488;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(219, 39, 119); --hover-color: #EA7FAF;"
-  >
+  <button style="background-color: rgb(219, 39, 119); --hover-color: #EA7FAF;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(236, 72, 153); --hover-color: #A7115B;"
-  >
+  <button style="background-color: rgb(236, 72, 153); --hover-color: #A7115B;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(244, 114, 182); --hover-color: #C71070;"
-  >
+  <button style="background-color: rgb(244, 114, 182); --hover-color: #C71070;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(249, 168, 212); --hover-color: #EA1087;"
-  >
+  <button style="background-color: rgb(249, 168, 212); --hover-color: #EA1087;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(251, 207, 232); --hover-color: #ED2697;"
-  >
+  <button style="background-color: rgb(251, 207, 232); --hover-color: #ED2697;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(252, 231, 243); --hover-color: #E73B9D;"
-  >
+  <button style="background-color: rgb(252, 231, 243); --hover-color: #E73B9D;">
     <span>100</span>
   </button>
   <button
@@ -2526,58 +1839,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(136, 19, 55); --hover-color: #BE1B4D;"
-  >
+  <button style="background-color: rgb(136, 19, 55); --hover-color: #BE1B4D;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(159, 18, 57); --hover-color: #DF1950;"
-  >
+  <button style="background-color: rgb(159, 18, 57); --hover-color: #DF1950;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(190, 18, 60); --hover-color: #EC3763;"
-  >
+  <button style="background-color: rgb(190, 18, 60); --hover-color: #EC3763;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(225, 29, 72); --hover-color: #ED7690;"
-  >
+  <button style="background-color: rgb(225, 29, 72); --hover-color: #ED7690;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(244, 63, 94); --hover-color: #FBB3BF;"
-  >
+  <button style="background-color: rgb(244, 63, 94); --hover-color: #FBB3BF;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(251, 113, 133); --hover-color: #D40624;"
-  >
+  <button style="background-color: rgb(251, 113, 133); --hover-color: #D40624;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(253, 164, 175); --hover-color: #F50523;"
-  >
+  <button style="background-color: rgb(253, 164, 175); --hover-color: #F50523;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(254, 205, 211); --hover-color: #FA1935;"
-  >
+  <button style="background-color: rgb(254, 205, 211); --hover-color: #FA1935;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(255, 228, 230); --hover-color: #FF2333;"
-  >
+  <button style="background-color: rgb(255, 228, 230); --hover-color: #FF2333;">
     <span>100</span>
   </button>
   <button
@@ -2593,58 +1879,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(28, 25, 23); --hover-color: #272320;"
-  >
+  <button style="background-color: rgb(28, 25, 23); --hover-color: #272320;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(41, 37, 36); --hover-color: #393432;"
-  >
+  <button style="background-color: rgb(41, 37, 36); --hover-color: #393432;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(68, 64, 60); --hover-color: #5F5A54;"
-  >
+  <button style="background-color: rgb(68, 64, 60); --hover-color: #5F5A54;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(87, 83, 78); --hover-color: #7A746D;"
-  >
+  <button style="background-color: rgb(87, 83, 78); --hover-color: #7A746D;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(120, 113, 108); --hover-color: #A59F9B;"
-  >
+  <button style="background-color: rgb(120, 113, 108); --hover-color: #A59F9B;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(168, 162, 158); --hover-color: #67615C;"
-  >
+  <button style="background-color: rgb(168, 162, 158); --hover-color: #67615C;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(214, 211, 209); --hover-color: #867D78;"
-  >
+  <button style="background-color: rgb(214, 211, 209); --hover-color: #867D78;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(231, 229, 228); --hover-color: #918783;"
-  >
+  <button style="background-color: rgb(231, 229, 228); --hover-color: #918783;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(245, 245, 244); --hover-color: #98988E;"
-  >
+  <button style="background-color: rgb(245, 245, 244); --hover-color: #98988E;">
     <span>100</span>
   </button>
   <button
@@ -2660,58 +1919,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(23, 23, 23); --hover-color: #202020;"
-  >
+  <button style="background-color: rgb(23, 23, 23); --hover-color: #202020;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(38, 38, 38); --hover-color: #353535;"
-  >
+  <button style="background-color: rgb(38, 38, 38); --hover-color: #353535;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(64, 64, 64); --hover-color: #5A5A5A;"
-  >
+  <button style="background-color: rgb(64, 64, 64); --hover-color: #5A5A5A;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(82, 82, 82); --hover-color: #737373;"
-  >
+  <button style="background-color: rgb(82, 82, 82); --hover-color: #737373;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(115, 115, 115); --hover-color: #A1A1A1;"
-  >
+  <button style="background-color: rgb(115, 115, 115); --hover-color: #A1A1A1;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(163, 163, 163); --hover-color: #626262;"
-  >
+  <button style="background-color: rgb(163, 163, 163); --hover-color: #626262;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(212, 212, 212); --hover-color: #7F7F7F;"
-  >
+  <button style="background-color: rgb(212, 212, 212); --hover-color: #7F7F7F;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(229, 229, 229); --hover-color: #898989;"
-  >
+  <button style="background-color: rgb(229, 229, 229); --hover-color: #898989;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(245, 245, 245); --hover-color: #939393;"
-  >
+  <button style="background-color: rgb(245, 245, 245); --hover-color: #939393;">
     <span>100</span>
   </button>
   <button
@@ -2727,58 +1959,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(24, 24, 27); --hover-color: #222226;"
-  >
+  <button style="background-color: rgb(24, 24, 27); --hover-color: #222226;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(39, 39, 42); --hover-color: #37373B;"
-  >
+  <button style="background-color: rgb(39, 39, 42); --hover-color: #37373B;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(63, 63, 70); --hover-color: #585862;"
-  >
+  <button style="background-color: rgb(63, 63, 70); --hover-color: #585862;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(82, 82, 91); --hover-color: #73737F;"
-  >
+  <button style="background-color: rgb(82, 82, 91); --hover-color: #73737F;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(113, 113, 122); --hover-color: #A1A1A8;"
-  >
+  <button style="background-color: rgb(113, 113, 122); --hover-color: #A1A1A8;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(161, 161, 170); --hover-color: #5E5E68;"
-  >
+  <button style="background-color: rgb(161, 161, 170); --hover-color: #5E5E68;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(212, 212, 216); --hover-color: #7A7A87;"
-  >
+  <button style="background-color: rgb(212, 212, 216); --hover-color: #7A7A87;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(228, 228, 231); --hover-color: #838391;"
-  >
+  <button style="background-color: rgb(228, 228, 231); --hover-color: #838391;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(244, 244, 245); --hover-color: #8E8E98;"
-  >
+  <button style="background-color: rgb(244, 244, 245); --hover-color: #8E8E98;">
     <span>100</span>
   </button>
   <button
@@ -2794,58 +1999,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(17, 24, 39); --hover-color: #182237;"
-  >
+  <button style="background-color: rgb(17, 24, 39); --hover-color: #182237;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(31, 41, 55); --hover-color: #2B394D;"
-  >
+  <button style="background-color: rgb(31, 41, 55); --hover-color: #2B394D;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(55, 65, 81); --hover-color: #4D5B71;"
-  >
+  <button style="background-color: rgb(55, 65, 81); --hover-color: #4D5B71;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(75, 85, 99); --hover-color: #69778B;"
-  >
+  <button style="background-color: rgb(75, 85, 99); --hover-color: #69778B;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(107, 114, 128); --hover-color: #9CA2AD;"
-  >
+  <button style="background-color: rgb(107, 114, 128); --hover-color: #9CA2AD;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(156, 163, 175); --hover-color: #59616E;"
-  >
+  <button style="background-color: rgb(156, 163, 175); --hover-color: #59616E;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(209, 213, 219); --hover-color: #717D90;"
-  >
+  <button style="background-color: rgb(209, 213, 219); --hover-color: #717D90;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(229, 231, 235); --hover-color: #7C869A;"
-  >
+  <button style="background-color: rgb(229, 231, 235); --hover-color: #7C869A;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(243, 244, 246); --hover-color: #838EA2;"
-  >
+  <button style="background-color: rgb(243, 244, 246); --hover-color: #838EA2;">
     <span>100</span>
   </button>
   <button
@@ -2861,58 +2039,31 @@ export const yellow = [
   >
     <span>950</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(15, 23, 42); --hover-color: #15203B;"
-  >
+  <button style="background-color: rgb(15, 23, 42); --hover-color: #15203B;">
     <span>900</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(30, 41, 59); --hover-color: #2A3953;"
-  >
+  <button style="background-color: rgb(30, 41, 59); --hover-color: #2A3953;">
     <span>800</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(51, 65, 85); --hover-color: #475B77;"
-  >
+  <button style="background-color: rgb(51, 65, 85); --hover-color: #475B77;">
     <span>700</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(71, 85, 105); --hover-color: #637793;"
-  >
+  <button style="background-color: rgb(71, 85, 105); --hover-color: #637793;">
     <span>600</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(100, 116, 139); --hover-color: #99A5B6;"
-  >
+  <button style="background-color: rgb(100, 116, 139); --hover-color: #99A5B6;">
     <span>500</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(148, 163, 184); --hover-color: #4F6078;"
-  >
+  <button style="background-color: rgb(148, 163, 184); --hover-color: #4F6078;">
     <span>400</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(203, 213, 225); --hover-color: #5E7DA2;"
-  >
+  <button style="background-color: rgb(203, 213, 225); --hover-color: #5E7DA2;">
     <span>300</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(226, 232, 240); --hover-color: #6787B0;"
-  >
+  <button style="background-color: rgb(226, 232, 240); --hover-color: #6787B0;">
     <span>200</span>
   </button>
-  <button
-    class="color"
-    style="background-color: rgb(241, 245, 249); --hover-color: #6893BE;"
-  >
+  <button style="background-color: rgb(241, 245, 249); --hover-color: #6893BE;">
     <span>100</span>
   </button>
   <button
