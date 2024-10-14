@@ -1,14 +1,6 @@
 import { Box, Typography } from '@mui/material';
 
-export const ColorSwatch = ({
-  label,
-  color,
-}: // accessibility,
-{
-  label: string;
-  color: string;
-  // accessibility: string;
-}) => (
+export const ColorSwatch = ({ label, color, onClick }: any) => (
   <Box
     sx={{
       backgroundColor: color,
@@ -19,6 +11,7 @@ export const ColorSwatch = ({
       justifyContent: 'center',
       alignItems: 'center',
     }}
+    onClick={onClick}
   >
     <Typography variant="body2">{label}</Typography>
     {/* <Typography variant="body2">{accessibility}</Typography> */}
