@@ -31,6 +31,7 @@ import {
   orange,
   yellow,
 } from '../colors';
+import { useThemeContext } from '../ThemeContext';
 
 const colorMap = {
   primary,
@@ -76,12 +77,13 @@ export const colorNames = [
 
 interface PaletteItemProps {
   color: 'primary' | 'secondary' | 'error' | 'warning' | 'success' | 'info';
-  setColor: (color: string) => void;
+  // setColor: (color: string) => void;
 }
 
-export const PaletteItem = ({ color, setColor }: PaletteItemProps) => {
+export const PaletteItem = ({ color }: PaletteItemProps) => {
   const theme = useTheme();
   const [open, setOpen] = useState(false);
+  const { setPrimaryColor } = useThemeContext();
 
   const createColorLevel = (
     level: 'light' | 'main' | 'dark' | 'contrastText'
@@ -96,7 +98,7 @@ export const PaletteItem = ({ color, setColor }: PaletteItemProps) => {
   };
 
   const handleColorClick = (color) => {
-    setColor(color);
+    setPrimaryColor(color);
   };
 
   return (
