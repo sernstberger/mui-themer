@@ -1,7 +1,27 @@
 import React from 'react';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import { Box, Typography } from '@mui/material';
-import { primary, error, warning, success } from './colors'; // Import colors
+import {
+  primary,
+  error,
+  warning,
+  success,
+  moss,
+  teal,
+  greenLight,
+  green,
+  cyan,
+  blue,
+  blueLight,
+  violet,
+  fuchsia,
+  pink,
+  rose,
+  orangeDark,
+  orange,
+  yellow,
+} from './colors';
+import { ColorSwatchList } from './Components/ColorSwatchList';
 
 const theme = createTheme({
   palette: {
@@ -23,87 +43,59 @@ const theme = createTheme({
   },
 });
 
-const ColorSwatch = ({
-  label,
-  color,
-  accessibility,
-}: {
-  label: string;
-  color: string;
-  accessibility: string;
-}) => (
-  <Box
-    sx={{
-      backgroundColor: color,
-      width: 150,
-      height: 150,
-      margin: 1,
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-    }}
-  >
-    <Typography variant="body2">{label}</Typography>
-    <Typography variant="body2">{accessibility}</Typography>
-  </Box>
-);
+export const colorNames = [
+  'primary',
+  'error',
+  'warning',
+  'success',
+  'moss',
+  'teal',
+  'greenLight',
+  'green',
+  'cyan',
+  'blue',
+  'blueLight',
+  'violet',
+  'fuchsia',
+  'pink',
+  'rose',
+  'orangeDark',
+  'orange',
+  'yellow',
+];
+
+const colorMap = {
+  primary,
+  error,
+  warning,
+  success,
+  moss,
+  teal,
+  greenLight,
+  green,
+  cyan,
+  blue,
+  blueLight,
+  violet,
+  fuchsia,
+  pink,
+  rose,
+  orangeDark,
+  orange,
+  yellow,
+};
 
 const App = () => (
   <ThemeProvider theme={theme}>
     <CssBaseline />
-    <Typography variant="h5" gutterBottom sx={{ marginTop: 4 }}>
-      Primary Colors
-    </Typography>
-    <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
-      {primary.map((swatch) => (
-        <ColorSwatch
-          key={swatch.label}
-          label={swatch.label}
-          color={swatch.color}
-          accessibility={swatch.accessibility}
-        />
-      ))}
-    </Box>
-    <Typography variant="h5" gutterBottom sx={{ marginTop: 4 }}>
-      Error Colors
-    </Typography>
-    <Box display="flex" flexWrap="wrap">
-      {error.map((swatch) => (
-        <ColorSwatch
-          key={swatch.label}
-          label={swatch.label}
-          color={swatch.color}
-          accessibility={swatch.accessibility}
-        />
-      ))}
-    </Box>
-    <Typography variant="h5" gutterBottom sx={{ marginTop: 4 }}>
-      Warning Colors
-    </Typography>
-    <Box display="flex" flexWrap="wrap">
-      {warning.map((swatch) => (
-        <ColorSwatch
-          key={swatch.label}
-          label={swatch.label}
-          color={swatch.color}
-          accessibility={swatch.accessibility}
-        />
-      ))}
-    </Box>
-    <Typography variant="h5" gutterBottom sx={{ marginTop: 4 }}>
-      Success Colors
-    </Typography>
-    <Box display="flex" flexWrap="wrap">
-      {success.map((swatch) => (
-        <ColorSwatch
-          key={swatch.label}
-          label={swatch.label}
-          color={swatch.color}
-          accessibility={swatch.accessibility}
-        />
-      ))}
-    </Box>
+    {colorNames.map((colorName) => (
+      <Box key={colorName} sx={{ marginBottom: 1 }}>
+        <Typography>
+          {colorName.charAt(0).toUpperCase() + colorName.slice(1)}
+        </Typography>
+        <ColorSwatchList {...{ colorMap, colorName }} />
+      </Box>
+    ))}
   </ThemeProvider>
 );
 
