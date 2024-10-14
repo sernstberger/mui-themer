@@ -132,3 +132,153 @@ export const grayIron = [
   { label: '900', color: '#1E1E28', accessibility: 'AAA 19.05' },
   { label: '950', color: '#15151F', accessibility: 'AAA 19.05' },
 ];
+
+export const moss = [
+  { label: '25', color: '#FAFDF7', accessibility: 'AA 6.88' },
+  { label: '50', color: '#F5FBEE', accessibility: 'AA 6.69' },
+  { label: '100', color: '#E6F4D7', accessibility: 'AA 6.15' },
+  { label: '200', color: '#CEEAB0', accessibility: 'AA 5.38' },
+  { label: '300', color: '#ACDC79', accessibility: 'AA 4.46' },
+  { label: '400', color: '#86CB3C', accessibility: '1.97' },
+  { label: '500', color: '#669F2A', accessibility: '3.20' },
+  { label: '600', color: '#4F7A21', accessibility: 'AA 5.05' },
+  { label: '700', color: '#3F621A', accessibility: 'AAA 7.06' },
+  { label: '800', color: '#335015', accessibility: 'AAA 9.13' },
+  { label: '900', color: '#2B4212', accessibility: 'AAA 11.10' },
+  { label: '950', color: '#1A280B', accessibility: 'AAA 15.52' },
+];
+
+export const teal = [
+  { label: '25', color: '#F6FEFC', accessibility: 'AAA 5.43' },
+  { label: '50', color: '#F0FDF9', accessibility: 'AA 5.33' },
+  { label: '100', color: '#CCFBEF', accessibility: 'AA 4.93' },
+  { label: '200', color: '#99F6E0', accessibility: '4.40' },
+  { label: '300', color: '#5FE9D0', accessibility: '3.72' },
+  { label: '400', color: '#2ED3B7', accessibility: '1.88' },
+  { label: '500', color: '#15B79E', accessibility: '2.53' },
+  { label: '600', color: '#0E9384', accessibility: '3.80' },
+  { label: '700', color: '#107569', accessibility: 'AA 5.56' },
+  { label: '800', color: '#125D56', accessibility: 'AAA 7.70' },
+  { label: '900', color: '#134E48', accessibility: 'AAA 9.49' },
+  { label: '950', color: '#0A2926', accessibility: 'AAA 15.46' },
+];
+
+export const cyan = [
+  { label: '25', color: '#ECFEFF', accessibility: 'AAA 8.25' },
+  { label: '50', color: '#CFFAFE', accessibility: 'AAA 7.80' },
+  { label: '100', color: '#A5F3FC', accessibility: 'AA 6.46' },
+  { label: '200', color: '#67E8F9', accessibility: '4.71' },
+  { label: '300', color: '#22D3EE', accessibility: '3.45' },
+  { label: '400', color: '#06B6D4', accessibility: '2.81' },
+  { label: '500', color: '#0891B2', accessibility: '3.25' },
+  { label: '600', color: '#0E7490', accessibility: 'AA 4.69' },
+  { label: '700', color: '#155E75', accessibility: 'AAA 7.01' },
+  { label: '800', color: '#164E63', accessibility: 'AAA 9.68' },
+  { label: '900', color: '#164150', accessibility: 'AAA 12.99' },
+  { label: '950', color: '#102D3D', accessibility: 'AAA 19.05' },
+];
+
+export const blueLight = [
+  { label: '25', color: '#F0F9FF', accessibility: 'AAA 8.34' },
+  { label: '50', color: '#E0F2FE', accessibility: 'AAA 7.98' },
+  { label: '100', color: '#BAE6FD', accessibility: 'AA 6.62' },
+  { label: '200', color: '#7DD3FC', accessibility: '4.92' },
+  { label: '300', color: '#38BDF8', accessibility: '3.71' },
+  { label: '400', color: '#0EA5E9', accessibility: '2.89' },
+  { label: '500', color: '#0284C7', accessibility: '3.39' },
+  { label: '600', color: '#0369A1', accessibility: 'AA 4.75' },
+  { label: '700', color: '#075985', accessibility: 'AAA 7.41' },
+  { label: '800', color: '#0C4A6E', accessibility: 'AAA 10.88' },
+  { label: '900', color: '#0A3B5D', accessibility: 'AAA 13.95' },
+  { label: '950', color: '#083045', accessibility: 'AAA 19.05' },
+];
+
+export const blue = [
+  { label: '25', color: '#EFF6FF', accessibility: 'AAA 8.31' },
+  { label: '50', color: '#DBEAFE', accessibility: 'AAA 7.92' },
+  { label: '100', color: '#BFDBFE', accessibility: 'AA 6.72' },
+  { label: '200', color: '#93C5FD', accessibility: '4.83' },
+  { label: '300', color: '#60A5FA', accessibility: '3.43' },
+  { label: '400', color: '#3B82F6', accessibility: '2.99' },
+  { label: '500', color: '#2563EB', accessibility: '3.15' },
+  { label: '600', color: '#1D4ED8', accessibility: 'AA 4.81' },
+  { label: '700', color: '#1E40AF', accessibility: 'AAA 7.03' },
+  { label: '800', color: '#1E3A8A', accessibility: 'AAA 10.03' },
+  { label: '900', color: '#1C2965', accessibility: 'AAA 13.64' },
+  { label: '950', color: '#0C2347', accessibility: 'AAA 19.05' },
+];
+
+export const blueDark = [
+  { label: '25', color: '#F5F9FF', accessibility: 'AAA 8.44' },
+  { label: '50', color: '#E6F1FE', accessibility: 'AAA 8.14' },
+  { label: '100', color: '#BFD8FC', accessibility: 'AA 6.62' },
+  { label: '200', color: '#7DBDF7', accessibility: '4.78' },
+  { label: '300', color: '#3EA1F3', accessibility: '3.52' },
+  { label: '400', color: '#0D8FF1', accessibility: '2.81' },
+  { label: '500', color: '#0073D9', accessibility: '3.12' },
+  { label: '600', color: '#005CB0', accessibility: 'AA 4.91' },
+  { label: '700', color: '#00488F', accessibility: 'AAA 7.13' },
+  { label: '800', color: '#003B6D', accessibility: 'AAA 10.78' },
+  { label: '900', color: '#002D4E', accessibility: 'AAA 14.62' },
+  { label: '950', color: '#001F38', accessibility: 'AAA 19.05' },
+];
+
+export const indigo = [
+  { label: '25', color: '#EEF2FF', accessibility: 'AAA 8.45' },
+  { label: '50', color: '#E0E7FF', accessibility: 'AAA 8.10' },
+  { label: '100', color: '#C7D2FE', accessibility: 'AA 6.65' },
+  { label: '200', color: '#A5B4FC', accessibility: '4.83' },
+  { label: '300', color: '#818CF8', accessibility: '3.48' },
+  { label: '400', color: '#6366F1', accessibility: '2.88' },
+  { label: '500', color: '#4F46E5', accessibility: '3.08' },
+  { label: '600', color: '#4338CA', accessibility: 'AA 4.82' },
+  { label: '700', color: '#3730A3', accessibility: 'AAA 7.07' },
+  { label: '800', color: '#312E81', accessibility: 'AAA 10.29' },
+  { label: '900', color: '#27215F', accessibility: 'AAA 13.82' },
+  { label: '950', color: '#1B1947', accessibility: 'AAA 19.05' },
+];
+
+export const purple = [
+  { label: '25', color: '#FAF5FF', accessibility: 'AAA 8.30' },
+  { label: '50', color: '#F3E8FF', accessibility: 'AAA 8.00' },
+  { label: '100', color: '#E9D5FF', accessibility: 'AA 6.59' },
+  { label: '200', color: '#D8B4FE', accessibility: '4.79' },
+  { label: '300', color: '#C084FC', accessibility: '3.35' },
+  { label: '400', color: '#A855F7', accessibility: '2.61' },
+  { label: '500', color: '#9333EA', accessibility: '3.25' },
+  { label: '600', color: '#7E22CE', accessibility: 'AA 4.85' },
+  { label: '700', color: '#6B21A8', accessibility: 'AAA 7.18' },
+  { label: '800', color: '#581C87', accessibility: 'AAA 10.92' },
+  { label: '900', color: '#471A72', accessibility: 'AAA 14.71' },
+  { label: '950', color: '#341456', accessibility: 'AAA 19.05' },
+];
+
+export const greenLight = [
+  { label: '25', color: '#FAFEF5', accessibility: 'AA 5.04' },
+  { label: '50', color: '#F3FEE7', accessibility: 'AA 4.94' },
+  { label: '100', color: '#E4FBCC', accessibility: 'AA 4.64' },
+  { label: '200', color: '#D0F8AB', accessibility: '4.34' },
+  { label: '300', color: '#A6EF67', accessibility: '3.72' },
+  { label: '400', color: '#85E13A', accessibility: '1.63' },
+  { label: '500', color: '#66C61C', accessibility: '2.18' },
+  { label: '600', color: '#4CA30D', accessibility: '3.20' },
+  { label: '700', color: '#3B7C0F', accessibility: 'AA 5.15' },
+  { label: '800', color: '#326212', accessibility: 'AAA 7.26' },
+  { label: '900', color: '#2B5314', accessibility: 'AAA 8.93' },
+  { label: '950', color: '#15290A', accessibility: 'AAA 15.51' },
+];
+
+export const green = [
+  { label: '25', color: '#F6FEF9', accessibility: 'AAA 5.70' },
+  { label: '50', color: '#EDFCF2', accessibility: 'AA 5.51' },
+  { label: '100', color: '#D3F8DF', accessibility: 'AA 5.08' },
+  { label: '200', color: '#AAF0C4', accessibility: '4.44' },
+  { label: '300', color: '#73E2A3', accessibility: '3.65' },
+  { label: '400', color: '#3CCB7F', accessibility: '2.09' },
+  { label: '500', color: '#16B364', accessibility: '2.73' },
+  { label: '600', color: '#099250', accessibility: '4.00' },
+  { label: '700', color: '#087443', accessibility: 'AA 5.85' },
+  { label: '800', color: '#095C37', accessibility: 'AAA 8.08' },
+  { label: '900', color: '#084C2E', accessibility: 'AAA 10.07' },
+  { label: '950', color: '#052E1C', accessibility: 'AAA 14.85' },
+];
