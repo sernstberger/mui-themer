@@ -88,21 +88,33 @@ const ColorSwatch = ({
   <Box
     sx={{
       backgroundColor: color,
-      width: 100,
-      height: 100,
+      width: 150,
+      height: 150,
       margin: 1,
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-      justifyContent: 'center',
+      justifyContent: 'space-between',
       borderRadius: 1,
+      padding: 1,
     }}
   >
     <Typography variant="body2" color="#fff">
       {label}
     </Typography>
+    <Box
+      sx={{
+        width: '100%',
+        height: '2px',
+        backgroundColor: '#fff',
+        marginTop: 'auto',
+      }}
+    />
     <Typography variant="caption" color="#fff">
       {accessibility}
+    </Typography>
+    <Typography variant="caption" color="#fff">
+      HEX: {color}
     </Typography>
   </Box>
 );
