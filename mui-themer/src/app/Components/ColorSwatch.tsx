@@ -3,15 +3,9 @@ import { Box, BoxProps, Typography } from '@mui/material';
 interface ColorSwatchProps extends BoxProps {
   label: string;
   color: string;
-  onClick: () => void;
 }
 
-export const ColorSwatch = ({
-  label,
-  color,
-  onClick,
-  ...rest
-}: ColorSwatchProps) => (
+export const ColorSwatch = ({ label, color, ...rest }: ColorSwatchProps) => (
   <Box
     {...rest}
     sx={{
@@ -24,7 +18,6 @@ export const ColorSwatch = ({
       alignItems: 'center',
       ...rest.sx,
     }}
-    onClick={onClick}
   >
     <Typography variant="body2">{label}</Typography>
     {/* <Typography variant="body2">{accessibility}</Typography> */}

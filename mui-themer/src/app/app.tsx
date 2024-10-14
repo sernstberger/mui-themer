@@ -1,4 +1,4 @@
-import { Button, CssBaseline, Divider } from '@mui/material';
+import { Button, CssBaseline, Divider, Stack } from '@mui/material';
 import { Box, Typography } from '@mui/material';
 import { PaletteItem } from './Components/PaletteItem';
 import { ThemeProvider } from './ThemeContext';
@@ -63,12 +63,14 @@ const App = () => {
       <CssBaseline />
       <Typography variant="h1">Mui Themer</Typography>
       <Typography variant="h2">Palette</Typography>
-      <PaletteItem color="primary" />
-      <PaletteItem color="secondary" />
-      <PaletteItem color="error" />
-      <PaletteItem color="warning" />
-      <PaletteItem color="success" />
-      <PaletteItem color="info" />
+      <Stack spacing={4}>
+        <PaletteItem color="primary" />
+        <PaletteItem color="secondary" />
+        <PaletteItem color="error" />
+        <PaletteItem color="warning" />
+        <PaletteItem color="success" />
+        <PaletteItem color="info" />
+      </Stack>
 
       <Divider sx={{ marginBottom: 2 }} />
       <Button variant="contained" color="primary">

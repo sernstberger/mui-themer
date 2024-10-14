@@ -8,6 +8,8 @@ import {
   DialogContent,
   DialogActions,
   Box,
+  Stack,
+  IconButton,
 } from '@mui/material';
 import { ColorSwatch } from './ColorSwatch';
 import { ColorSwatchList } from './ColorSwatchList';
@@ -32,6 +34,7 @@ import {
   yellow,
 } from '../colors';
 import { useThemeContext } from '../ThemeContext';
+import EditIcon from '@mui/icons-material/Edit';
 
 const colorMap = {
   primary,
@@ -103,21 +106,27 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
 
   return (
     <div>
-      <Typography>
-        {color}: {createColorLevel('main')}
-      </Typography>
-      <Button onClick={handleClickOpen}>Edit</Button>
-      <ColorSwatch label="Light" color={createColorLevel('light')} />
-      <ColorSwatch
-        label="Main"
-        color={createColorLevel('main')}
-        sx={{ width: 200 }}
-      />
-      <ColorSwatch label="Dark" color={createColorLevel('dark')} />
-      <ColorSwatch
-        label="Contrast text"
-        color={createColorLevel('contrastText')}
-      />
+      <Stack direction="row">
+        <Typography>
+          {color}: {createColorLevel('main')}
+        </Typography>
+        <IconButton onClick={handleClickOpen} size="small">
+          <EditIcon />
+        </IconButton>
+      </Stack>
+      <Stack direction="row">
+        <ColorSwatch label="Light" color={createColorLevel('light')} />
+        <ColorSwatch
+          label="Main"
+          color={createColorLevel('main')}
+          sx={{ width: 200 }}
+        />
+        <ColorSwatch label="Dark" color={createColorLevel('dark')} />
+        <ColorSwatch
+          label="Contrast text"
+          color={createColorLevel('contrastText')}
+        />
+      </Stack>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Edit {color} Color</DialogTitle>
 
