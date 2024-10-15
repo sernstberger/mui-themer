@@ -1,4 +1,13 @@
-import { Button, Divider, Drawer } from '@mui/material';
+import {
+  Alert,
+  Breadcrumbs,
+  Button,
+  Card,
+  CardContent,
+  Divider,
+  Drawer,
+  Link,
+} from '@mui/material';
 import { Box, Typography } from '@mui/material';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -9,6 +18,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
+import { Check } from '@mui/icons-material';
 
 const drawerWidth = 240;
 
@@ -72,6 +82,33 @@ export const ExampleApp = () => {
         sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
       >
         <Toolbar />
+        <Alert icon={<Check fontSize="inherit" />} severity="success">
+          Here is a gentle confirmation that your action was successful.
+        </Alert>
+        <Card>
+          <CardContent>
+            <Typography variant="h1" gutterBottom>
+              Example card
+            </Typography>
+            <Typography variant="body1">
+              This is an example card with some content.
+            </Typography>
+          </CardContent>
+        </Card>
+
+        <Breadcrumbs aria-label="breadcrumb">
+          <Link underline="hover" color="inherit" href="/">
+            MUI
+          </Link>
+          <Link
+            underline="hover"
+            color="inherit"
+            href="/material-ui/getting-started/installation/"
+          >
+            Core
+          </Link>
+          <Typography sx={{ color: 'text.primary' }}>Breadcrumbs</Typography>
+        </Breadcrumbs>
         <Typography variant="h1" gutterBottom>
           Example page
         </Typography>
