@@ -17,9 +17,10 @@ const getAccessibilityRating = (contrast: number) => {
 
 export const ColorSwatch = ({ label, color, ...rest }: ColorSwatchProps) => {
   const theme = useTheme();
-  const contrastText = theme.palette.getContrastText(color);
-  const contrastRatio = chroma.contrast(color, contrastText);
-  const accessibilityRating = getAccessibilityRating(contrastRatio);
+  // console.log('$$$theme', color);
+  // const contrastText = theme.palette.getContrastText(color);
+  // const contrastRatio = chroma.contrast(color, contrastText);
+  // const accessibilityRating = getAccessibilityRating(contrastRatio);
 
   return (
     <Box
@@ -35,12 +36,12 @@ export const ColorSwatch = ({ label, color, ...rest }: ColorSwatchProps) => {
         ...rest.sx,
       }}
     >
-      <Typography variant="body2" color={contrastText}>
+      <Typography variant="body2" color="#FFFFFF">
         {label}
       </Typography>
-      <Typography variant="body2" color={contrastText}>
+      {/* <Typography variant="body2" color={contrastText}>
         {accessibilityRating}
-      </Typography>
+      </Typography> */}
     </Box>
   );
 };

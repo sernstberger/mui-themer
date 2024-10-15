@@ -3,7 +3,7 @@ import { ColorProps, ColorSwatch } from './ColorSwatch';
 
 interface ColorSwatchListProps {
   colors: ColorProps[];
-  onColorClick: (color: string) => void;
+  onColorClick: (colors: ColorProps[]) => void;
 }
 
 export const ColorSwatchList = ({
@@ -17,7 +17,7 @@ export const ColorSwatchList = ({
           key={swatch.label}
           label={swatch.label}
           color={swatch.color}
-          onClick={() => onColorClick(swatch.color)}
+          onClick={() => onColorClick(colors)}
         />
       );
     })}

@@ -117,7 +117,9 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
   };
 
   const handleColorClick = (color) => {
-    setValue('primaryColor', color);
+    const newColor = color.find((c) => c.label === '600')?.color;
+    setValue('primaryColor', newColor);
+    // setValue('primaryColor', color); // TODO: This doesn't work quite right
   };
 
   return (
@@ -132,8 +134,7 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
         <ColorSwatch label="Light" color={createColorLevel('light')} />
         <ColorSwatch
           label="Main"
-          // color={createColorLevel('main')}
-          color={formValues.primaryColor}
+          color={formValues.primaryColor.main}
           sx={{ width: 100 }}
         />
         <ColorSwatch label="Dark" color={createColorLevel('dark')} />
