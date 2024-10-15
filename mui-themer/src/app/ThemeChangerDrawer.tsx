@@ -134,6 +134,19 @@ export const ThemeChangerDrawer = () => {
 
   const { register } = useFormContext();
 
+  const handleCopyClick = () => {
+    const themeString = JSON.stringify(theme, null, 2); // TODO: This is getting the wrong theme
+
+    navigator.clipboard
+      .writeText(themeString)
+      .then(() => {
+        console.log('Text copied to clipboard', themeString);
+      })
+      .catch((err) => {
+        console.error('Failed to copy text: ', err);
+      });
+  };
+
   return (
     <form
     // onSubmit={methods.handleSubmit(onSubmit)}
@@ -169,9 +182,7 @@ export const ThemeChangerDrawer = () => {
             justifyContent="space-between"
           >
             <Typography variant="h1">Mui Themer</Typography>
-            <IconButton
-            // onClick={handleCopyClick}
-            >
+            <IconButton onClick={handleCopyClick}>
               <ContentCopy />
             </IconButton>
           </Stack>

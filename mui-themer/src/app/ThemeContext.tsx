@@ -69,25 +69,5 @@ export const ThemeProvider = ({ children }) => {
     },
   });
 
-  const handleCopyClick = () => {
-    const themeString = JSON.stringify(theme, null, 2);
-
-    navigator.clipboard
-      .writeText(themeString)
-      .then(() => {
-        console.log('Text copied to clipboard', themeString);
-      })
-      .catch((err) => {
-        console.error('Failed to copy text: ', err);
-      });
-  };
-
-  return (
-    <MuiThemeProvider theme={theme}>
-      <Button variant="contained" color="primary" onClick={handleCopyClick}>
-        Copy theme
-      </Button>
-      {children}
-    </MuiThemeProvider>
-  );
+  return <MuiThemeProvider theme={theme}>{children}</MuiThemeProvider>;
 };
