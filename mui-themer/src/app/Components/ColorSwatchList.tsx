@@ -17,7 +17,6 @@ export const ColorSwatchList = ({
           key={swatch.label}
           label={swatch.label}
           color={swatch.color}
-          // accessibility={swatch.accessibility}
           onClick={() => onColorClick(swatch.color)}
         />
       );

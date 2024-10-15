@@ -122,10 +122,6 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
           sx={{ width: 200 }}
         />
         <ColorSwatch label="Dark" color={createColorLevel('dark')} />
-        <ColorSwatch
-          label="Contrast text"
-          color={createColorLevel('contrastText')}
-        />
       </Stack>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Edit {color} Color</DialogTitle>
