@@ -101,7 +101,7 @@ interface PaletteItemProps {
 export const PaletteItem = ({ color }: PaletteItemProps) => {
   const theme = useTheme();
   const [open, setOpen] = useState(false);
-  const { setPrimaryColor } = useThemeContext();
+  const { primaryColor, setPrimaryColor } = useThemeContext();
 
   const createColorLevel = (
     level: 'light' | 'main' | 'dark' | 'contrastText'
@@ -131,8 +131,9 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
         <ColorSwatch label="Light" color={createColorLevel('light')} />
         <ColorSwatch
           label="Main"
-          color={createColorLevel('main')}
-          sx={{ width: 200 }}
+          // color={createColorLevel('main')}
+          color={primaryColor}
+          sx={{ width: 100 }}
         />
         <ColorSwatch label="Dark" color={createColorLevel('dark')} />
       </Stack>

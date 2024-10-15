@@ -155,7 +155,7 @@ export const ThemeChangerDrawer = () => {
         Copy theme button goes here
         <Divider />
         <Typography variant="h2">Palette</Typography>
-        <Stack spacing={4}>
+        <Stack spacing={2}>
           <PaletteItem color="primary" />
           <PaletteItem color="secondary" />
           <PaletteItem color="error" />
