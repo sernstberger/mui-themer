@@ -2,9 +2,6 @@ import { Button, CssBaseline, Divider, Drawer, Stack } from '@mui/material';
 import { Box, Typography } from '@mui/material';
 import { PaletteItem } from './Components/PaletteItem';
 import { ThemeProvider } from './ThemeContext';
-
-import * as React from 'react';
-
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import List from '@mui/material/List';
@@ -175,6 +172,7 @@ const App = () => {
           sx={{
             width: drawerWidth,
             flexShrink: 0,
+
             '& .MuiDrawer-paper': {
               width: drawerWidth,
               boxSizing: 'border-box',
@@ -182,10 +180,15 @@ const App = () => {
           }}
           variant="permanent"
           anchor="right"
+          PaperProps={{
+            sx: {
+              padding: 2,
+            },
+          }}
         >
-          <Toolbar />
-          <Divider />
           <Typography variant="h1">Mui Themer</Typography>
+          Copy theme button goes here
+          <Divider />
           <Typography variant="h2">Palette</Typography>
           <Stack spacing={4}>
             <PaletteItem color="primary" />
@@ -195,7 +198,8 @@ const App = () => {
             <PaletteItem color="success" />
             <PaletteItem color="info" />
           </Stack>
-          <Divider sx={{ marginBottom: 2 }} />
+          <Divider sx={{ my: 2 }} />
+          <Typography variant="h2">Typography</Typography>
           <Types />
         </Drawer>
       </Box>
