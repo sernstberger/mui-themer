@@ -27,7 +27,7 @@ export const ColorSwatch = ({ label, color, ...rest }: ColorSwatchProps) => {
       sx={{
         backgroundColor: color,
         width: 50,
-        height: 50,
+        height: 30,
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

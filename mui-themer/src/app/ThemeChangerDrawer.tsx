@@ -1,4 +1,11 @@
-import { CssBaseline, Divider, Drawer, Stack, TextField } from '@mui/material';
+import {
+  CssBaseline,
+  Divider,
+  Drawer,
+  IconButton,
+  Stack,
+  TextField,
+} from '@mui/material';
 import { Box, Typography } from '@mui/material';
 import { PaletteItem } from './Components/PaletteItem';
 import {
@@ -8,6 +15,7 @@ import {
 } from '@mui/material';
 import '@fontsource/ibm-plex-mono';
 import { useThemeContext } from './ThemeContext';
+import { ContentCopy } from '@mui/icons-material';
 
 const drawerWidth = 240;
 
@@ -111,7 +119,7 @@ export const ThemeChangerDrawer = () => {
       // },
       MuiIconButton: {
         styleOverrides: {
-          root: {
+          sizeSmall: {
             // fontSize: '0.75rem',
             padding: 4,
             // fontWeight: 700,
@@ -151,8 +159,18 @@ export const ThemeChangerDrawer = () => {
           },
         }}
       >
-        <Typography variant="h1">Mui Themer</Typography>
-        Copy theme button goes here
+        <Stack
+          direction="row"
+          alignItems="center"
+          justifyContent="space-between"
+        >
+          <Typography variant="h1">Mui Themer</Typography>
+          <IconButton
+          // onClick={handleCopyClick}
+          >
+            <ContentCopy />
+          </IconButton>
+        </Stack>
         <Divider />
         <Typography variant="h2">Palette</Typography>
         <Stack spacing={2}>
