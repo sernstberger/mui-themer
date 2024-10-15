@@ -1,8 +1,8 @@
 import { Box } from '@mui/material';
-import { ColorSwatch } from './ColorSwatch';
+import { ColorProps, ColorSwatch } from './ColorSwatch';
 
 interface ColorSwatchListProps {
-  colors: any;
+  colors: ColorProps[];
   onColorClick: (color: string) => void;
 }
 
