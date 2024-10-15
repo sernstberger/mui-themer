@@ -29,6 +29,7 @@ import {
   warning,
   success,
 } from './colors';
+import '@fontsource/roboto';
 
 const ThemeContext = createContext({
   primaryColor: '#1976d2',
