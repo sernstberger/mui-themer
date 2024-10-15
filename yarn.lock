@@ -1288,6 +1288,11 @@
   dependencies:
     levn "^0.4.1"
 
+"@fontsource/ibm-plex-mono@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/ibm-plex-mono/-/ibm-plex-mono-5.1.0.tgz#383bd8e7fa4d71f4bae15b86f9d4484d74772d25"
+  integrity sha512-XKsZNyRCj6tz8zlatHmniSoLVephMD5GQG2sXgcaEb8DkUO+O61r28uTlIMEZuoZXtP4c4STvL+KUlJM5jZOEg==
+
 "@fontsource/inter@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-5.1.0.tgz#ab629b2c662457022d2d6a29854b8dc8ba538c47"

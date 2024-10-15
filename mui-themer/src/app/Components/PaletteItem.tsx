@@ -121,10 +121,8 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
 
   return (
     <div>
-      <Stack direction="row">
-        <Typography>
-          {color}: {createColorLevel('main')}
-        </Typography>
+      <Stack direction="row" alignItems="center" justifyContent="space-between">
+        <Typography>{color}</Typography>
         <IconButton onClick={handleClickOpen} size="small">
           <EditIcon />
         </IconButton>

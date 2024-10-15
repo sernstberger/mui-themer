@@ -34,12 +34,15 @@ import '@fontsource/roboto';
 const ThemeContext = createContext({
   primaryColor: '#1976d2',
   setPrimaryColor: (color: string) => {},
+  h1: 20,
+  setH1: (size: number) => {},
 });
 
 export const ThemeProvider = ({ children }) => {
   const [primaryColor, setPrimaryColor] = useState(
     primary.find((color) => color.label === '600')?.color || '#1976d2'
   );
+  const [h1, setH1] = useState(20);
 
   const theme = createTheme({
     palette: {
@@ -60,6 +63,12 @@ export const ThemeProvider = ({ children }) => {
     },
     typography: {
       fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+      h1: {
+        // fontSize: `${h1}rem`,
+        fontSize: `${h1}px`,
+        fontWeight: 700,
+        lineHeight: 1.2,
+      },
     },
   });
 
@@ -77,7 +86,7 @@ export const ThemeProvider = ({ children }) => {
   };
 
   return (
-    <ThemeContext.Provider value={{ primaryColor, setPrimaryColor }}>
+    <ThemeContext.Provider value={{ primaryColor, setPrimaryColor, h1, setH1 }}>
       <MuiThemeProvider theme={theme}>
         <Button variant="contained" color="primary" onClick={handleCopyClick}>
           Copy theme

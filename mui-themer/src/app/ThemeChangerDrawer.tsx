@@ -1,4 +1,4 @@
-import { CssBaseline, Divider, Drawer, Stack } from '@mui/material';
+import { CssBaseline, Divider, Drawer, Stack, TextField } from '@mui/material';
 import { Box, Typography } from '@mui/material';
 import { PaletteItem } from './Components/PaletteItem';
 import {
@@ -6,11 +6,13 @@ import {
   createTheme,
   ThemeProvider as MuiThemeProvider,
 } from '@mui/material';
-import '@fontsource/inter';
+import '@fontsource/ibm-plex-mono';
+import { useThemeContext } from './ThemeContext';
 
 const drawerWidth = 240;
 
 export const ThemeChangerDrawer = () => {
+  const { h1, setH1 } = useThemeContext();
   const theme = createTheme({
     palette: {
       mode: 'dark',
@@ -30,29 +32,29 @@ export const ThemeChangerDrawer = () => {
       // },
     },
     typography: {
-      fontFamily: '"Inter", "Helvetica", "Arial", sans-serif',
+      fontFamily: '"IBM Plex Mono", "Helvetica", "Arial", sans-serif',
       h1: {
-        fontSize: '1.8rem',
-        fontWeight: 700,
-        lineHeight: 1.2,
-      },
-      h2: {
-        fontSize: '1.75rem',
-        fontWeight: 700,
-        lineHeight: 1.2,
-      },
-      h3: {
-        fontSize: '1.6rem',
-        fontWeight: 700,
-        lineHeight: 1.2,
-      },
-      h4: {
         fontSize: '1.5rem',
         fontWeight: 700,
         lineHeight: 1.2,
       },
+      h2: {
+        fontSize: '1.4rem',
+        fontWeight: 700,
+        lineHeight: 1.2,
+      },
+      h3: {
+        fontSize: '1.3rem',
+        fontWeight: 700,
+        lineHeight: 1.2,
+      },
+      h4: {
+        fontSize: '1.2rem',
+        fontWeight: 700,
+        lineHeight: 1.2,
+      },
       h5: {
-        fontSize: '1.25rem',
+        fontSize: '1.1rem',
         fontWeight: 700,
         lineHeight: 1.2,
       },
@@ -72,12 +74,12 @@ export const ThemeChangerDrawer = () => {
         lineHeight: 1.2,
       },
       body1: {
-        fontSize: '1rem',
+        fontSize: '0.75rem',
         fontWeight: 400,
         lineHeight: 1.2,
       },
       body2: {
-        fontSize: '0.875rem',
+        fontSize: '0.6rem',
         fontWeight: 400,
         lineHeight: 1.2,
       },
@@ -95,6 +97,30 @@ export const ThemeChangerDrawer = () => {
         fontSize: '0.75rem',
         fontWeight: 700,
         lineHeight: 1.2,
+      },
+    },
+    components: {
+      // MuiButton: {
+      //   styleOverrides: {
+      //     root: {
+      //       fontSize: '0.875rem',
+      //       fontWeight: 700,
+      //       lineHeight: 1.2,
+      //     },
+      //   },
+      // },
+      MuiIconButton: {
+        styleOverrides: {
+          root: {
+            // fontSize: '0.75rem',
+            padding: 4,
+            // fontWeight: 700,
+            // lineHeight: 1.2,
+            svg: {
+              fontSize: '.75rem',
+            },
+          },
+        },
       },
     },
   });
@@ -140,9 +166,14 @@ export const ThemeChangerDrawer = () => {
         <Divider sx={{ my: 2 }} />
         <Typography variant="h2">Typography</Typography>
         <Box>
-          <Typography variant="h1" gutterBottom>
-            h1. Heading
-          </Typography>
+          <Typography variant="h3">h1</Typography>
+          <TextField
+            label="Size"
+            variant="outlined"
+            type="number"
+            onChange={(event) => setH1(Number(event.target.value))}
+            defaultValue={h1}
+          />
           <Typography variant="h2" gutterBottom>
             h2. Heading
           </Typography>
