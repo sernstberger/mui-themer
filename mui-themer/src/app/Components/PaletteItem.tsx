@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   Button,
   Typography,
-  useTheme,
   Dialog,
   DialogTitle,
   DialogContent,
@@ -99,14 +98,9 @@ interface PaletteItemProps {
 }
 
 export const PaletteItem = ({ color }: PaletteItemProps) => {
-  const theme = useTheme();
   const [open, setOpen] = useState(false);
   const { watch, setValue } = useFormContext();
   const formValues = watch();
-
-  const createColorLevel = (
-    level: 'light' | 'main' | 'dark' | 'contrastText'
-  ) => theme.palette[color][level];
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -116,11 +110,12 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
     setOpen(false);
   };
 
-  const handleColorClick = (color) => {
+  const handleColorClick = () => {
     const newColor = color.find((c) => c.label === '600')?.color;
-    setValue('primaryColor', newColor);
-    // setValue('primaryColor', color); // TODO: This doesn't work quite right
+    setValue(color, { main: newColor });
   };
+
+  console.log('formValues', formValues.primary);
 
   return (
     <div>
@@ -131,13 +126,13 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
         </IconButton>
       </Stack>
       <Stack direction="row">
-        <ColorSwatch label="Light" color={createColorLevel('light')} />
+        <ColorSwatch label="Light" color={formValues[color].light} />
         <ColorSwatch
           label="Main"
-          color={formValues.primaryColor.main}
+          color={formValues[color].main}
           sx={{ width: 100 }}
         />
-        <ColorSwatch label="Dark" color={createColorLevel('dark')} />
+        <ColorSwatch label="Dark" color={formValues[color].dark} />
       </Stack>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Edit {color} Color</DialogTitle>
@@ -155,11 +150,11 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
         ))}
 
         <DialogContent>
-          <Typography>Light: {createColorLevel('light')}</Typography>
-          <Typography>Main: {createColorLevel('main')}</Typography>
-          <Typography>Dark: {createColorLevel('dark')}</Typography>
+          <Typography>Light: {formValues[color].light}</Typography>
+          <Typography>Main: {formValues[color].main}</Typography>
+          <Typography>Dark: {formValues[color].dark}</Typography>
           <Typography>
-            Contrast Text: {createColorLevel('contrastText')}
+            Contrast Text: {formValues[color].contrastText}
           </Typography>
         </DialogContent>
         <DialogActions>

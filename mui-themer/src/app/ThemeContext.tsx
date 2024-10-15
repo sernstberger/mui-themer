@@ -44,7 +44,7 @@ export const ThemeProvider = ({ children }) => {
   const theme = createTheme({
     palette: {
       primary: {
-        main: formValues.primaryColor,
+        main: formValues.primary.main,
       },
       error: {
         main: error.find((color) => color.label === '600')?.color || '#D92D20',

@@ -25,7 +25,7 @@ export const ThemeChangerDrawer = () => {
     palette: {
       mode: 'dark',
       // primary: {
-      //   main: primaryColor,
+      //   main: primary,
       // },
       // error: {
       //   main: error.find((color) => color.label === '600')?.color || '#D92D20',
@@ -153,10 +153,6 @@ export const ThemeChangerDrawer = () => {
     // onSubmit={methods.handleSubmit(onSubmit)}
     >
       <MuiThemeProvider theme={theme}>
-        {/* <Button variant="contained" color="primary" onClick={handleCopyClick}>
-      Copy theme
-      </Button> */}
-
         {/* <CssBaseline /> */}
 
         <Drawer
