@@ -1,6 +1,30 @@
 import React, { createContext, useContext, useState } from 'react';
 import { createTheme, ThemeProvider as MuiThemeProvider } from '@mui/material';
-import { primary, error, warning, success } from './colors';
+import {
+  red,
+  pink,
+  purple,
+  deepPurple,
+  indigo,
+  blue,
+  lightBlue,
+  cyan,
+  teal,
+  green,
+  lightGreen,
+  lime,
+  yellow,
+  amber,
+  orange,
+  deepOrange,
+  brown,
+  grey,
+  blueGrey,
+  primary,
+  error,
+  warning,
+  success,
+} from './colors';
 
 const ThemeContext = createContext({
   primaryColor: '#1976d2',
