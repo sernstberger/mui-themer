@@ -286,6 +286,30 @@ export const ThemeChangerDrawer = () => {
             >
               overline text
             </Typography>
+
+            <Divider />
+            <Typography variant="h2">Text Fields</Typography>
+            <TextField
+              label="Variant"
+              variant="outlined"
+              select
+              fullWidth
+              {...register('textFieldVariant')}
+            >
+              <MenuItem value="standard">Standard</MenuItem>
+              <MenuItem value="outlined">Outlined</MenuItem>
+              <MenuItem value="filled">Filled</MenuItem>
+            </TextField>
+            <TextField
+              label="Label shrink"
+              variant="outlined"
+              select
+              fullWidth
+              {...register('textFieldLabelShrink')}
+            >
+              <MenuItem value="true">Shrink</MenuItem>
+              <MenuItem value="false">Float</MenuItem>
+            </TextField>
           </Box>
         </Drawer>
       </MuiThemeProvider>

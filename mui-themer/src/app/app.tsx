@@ -13,6 +13,8 @@ const defaultValues = {
   success: { main: '#079455', light: '#4CAF50', dark: '#087f23' },
   info: { main: '#2196f3', light: '#64b5f6', dark: '#1769aa' },
   h1: 20,
+  textFieldVariant: 'outlined',
+  textFieldLabelShrink: 'true',
 };
 
 const App = () => {

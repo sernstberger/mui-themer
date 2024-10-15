@@ -68,6 +68,16 @@ export const ThemeProvider = ({ children }) => {
         letterSpacing: formValues.h1LetterSpacing,
       },
     },
+    components: {
+      MuiTextField: {
+        defaultProps: {
+          variant: formValues.textFieldVariant,
+          InputLabelProps: {
+            shrink: formValues.textFieldLabelShrink === 'true',
+          },
+        },
+      },
+    },
   });
 
   return <MuiThemeProvider theme={theme}>{children}</MuiThemeProvider>;

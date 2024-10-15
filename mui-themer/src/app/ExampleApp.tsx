@@ -7,6 +7,7 @@ import {
   Divider,
   Drawer,
   Link,
+  TextField,
 } from '@mui/material';
 import { Box, Typography } from '@mui/material';
 import AppBar from '@mui/material/AppBar';
@@ -115,6 +116,11 @@ export const ExampleApp = () => {
         <Button variant="contained" color="primary">
           Primary
         </Button>
+
+        <Divider sx={{ my: 2 }} />
+
+        <TextField id="outlined-basic" label="Input field" />
+
         <Typography sx={{ marginBottom: 2 }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus
