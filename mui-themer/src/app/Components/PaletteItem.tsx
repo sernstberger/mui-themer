@@ -38,8 +38,9 @@ import {
   warning,
   success,
 } from '../colors';
-import { useThemeContext } from '../ThemeContext';
+// import { useThemeContext } from '../ThemeContext';
 import EditIcon from '@mui/icons-material/Edit';
+import { useFormContext } from 'react-hook-form';
 
 const colorMap = {
   red,
@@ -101,7 +102,9 @@ interface PaletteItemProps {
 export const PaletteItem = ({ color }: PaletteItemProps) => {
   const theme = useTheme();
   const [open, setOpen] = useState(false);
-  const { primaryColor, setPrimaryColor } = useThemeContext();
+  // const { primaryColor, setPrimaryColor } = useThemeContext();
+  const { watch, setValue } = useFormContext();
+  const formValues = watch();
 
   const createColorLevel = (
     level: 'light' | 'main' | 'dark' | 'contrastText'
@@ -116,7 +119,7 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
   };
 
   const handleColorClick = (color) => {
-    setPrimaryColor(color);
+    setValue('primaryColor', color);
   };
 
   return (
@@ -132,7 +135,7 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
         <ColorSwatch
           label="Main"
           // color={createColorLevel('main')}
-          color={primaryColor}
+          color={formValues.primaryColor}
           sx={{ width: 100 }}
         />
         <ColorSwatch label="Dark" color={createColorLevel('dark')} />

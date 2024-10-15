@@ -14,14 +14,14 @@ import {
   ThemeProvider as MuiThemeProvider,
 } from '@mui/material';
 import '@fontsource/ibm-plex-mono';
-import { useThemeContext } from './ThemeContext';
+// import { useThemeContext } from './ThemeContext';
 import { ContentCopy } from '@mui/icons-material';
 import { useFormContext } from 'react-hook-form';
 
 const drawerWidth = 240;
 
 export const ThemeChangerDrawer = () => {
-  const { h1, setH1 } = useThemeContext();
+  // const { h1, setH1 } = useThemeContext();
   const theme = createTheme({
     palette: {
       mode: 'dark',
@@ -198,6 +198,14 @@ export const ThemeChangerDrawer = () => {
               // onChange={(event) => setH1(Number(event.target.value))}
               // defaultValue={h1}
               {...register('h1', { valueAsNumber: true })}
+            />
+            <TextField
+              label="Weight"
+              variant="outlined"
+              type="number"
+              // onChange={(event) => setH1(Number(event.target.value))}
+              // defaultValue={h1}
+              {...register('h1Weight', { valueAsNumber: true })}
             />
             <Typography variant="h2" gutterBottom>
               h2. Heading
