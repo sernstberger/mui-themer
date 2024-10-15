@@ -1,6 +1,5 @@
 import { Button, CssBaseline, Divider, Drawer, Stack } from '@mui/material';
 import { Box, Typography } from '@mui/material';
-import { PaletteItem } from './Components/PaletteItem';
 import { ThemeProvider } from './ThemeContext';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -11,6 +10,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
+import { ThemeChangerDrawer } from './ThemeChangerDrawer';
 
 const drawerWidth = 240;
 
@@ -166,42 +166,10 @@ const App = () => {
             accumsan lacus vel facilisis. Nulla posuere sollicitudin aliquam
             ultrices sagittis orci a.
           </Typography>
+          <Types />
         </Box>
 
-        <Drawer
-          sx={{
-            width: drawerWidth,
-            flexShrink: 0,
-
-            '& .MuiDrawer-paper': {
-              width: drawerWidth,
-              boxSizing: 'border-box',
-            },
-          }}
-          variant="permanent"
-          anchor="right"
-          PaperProps={{
-            sx: {
-              padding: 2,
-            },
-          }}
-        >
-          <Typography variant="h1">Mui Themer</Typography>
-          Copy theme button goes here
-          <Divider />
-          <Typography variant="h2">Palette</Typography>
-          <Stack spacing={4}>
-            <PaletteItem color="primary" />
-            <PaletteItem color="secondary" />
-            <PaletteItem color="error" />
-            <PaletteItem color="warning" />
-            <PaletteItem color="success" />
-            <PaletteItem color="info" />
-          </Stack>
-          <Divider sx={{ my: 2 }} />
-          <Typography variant="h2">Typography</Typography>
-          <Types />
-        </Drawer>
+        <ThemeChangerDrawer />
       </Box>
     </ThemeProvider>
   );
