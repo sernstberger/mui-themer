@@ -1,4 +1,3 @@
-import React, { createContext, useContext, useState } from 'react';
 import {
   Button,
   createTheme,
@@ -37,18 +36,7 @@ import '@fontsource/roboto/700.css';
 import '@fontsource/roboto/900.css';
 import { useFormContext } from 'react-hook-form';
 
-// const ThemeContext = createContext({
-//   primaryColor: '#1976d2',
-//   setPrimaryColor: (color: string) => {},
-//   h1: 20,
-//   setH1: (size: number) => {},
-// });
-
 export const ThemeProvider = ({ children }) => {
-  // const [primaryColor, setPrimaryColor] = useState(
-  //   primary.find((color) => color.label === '600')?.color || '#1976d2'
-  // );
-  // const [h1, setH1] = useState(20);
   const { watch } = useFormContext();
   const formValues = watch();
   console.log('???', formValues);
@@ -95,15 +83,11 @@ export const ThemeProvider = ({ children }) => {
   };
 
   return (
-    // <ThemeContext.Provider value={{ primaryColor, setPrimaryColor, h1, setH1 }}>
     <MuiThemeProvider theme={theme}>
       <Button variant="contained" color="primary" onClick={handleCopyClick}>
         Copy theme
       </Button>
       {children}
     </MuiThemeProvider>
-    // </ThemeContext.Provider>
   );
 };
-
-// export const useThemeContext = () => useContext(ThemeContext);

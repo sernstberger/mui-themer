@@ -14,14 +14,12 @@ import {
   ThemeProvider as MuiThemeProvider,
 } from '@mui/material';
 import '@fontsource/ibm-plex-mono';
-// import { useThemeContext } from './ThemeContext';
 import { ContentCopy } from '@mui/icons-material';
 import { useFormContext } from 'react-hook-form';
 
 const drawerWidth = 240;
 
 export const ThemeChangerDrawer = () => {
-  // const { h1, setH1 } = useThemeContext();
   const theme = createTheme({
     palette: {
       mode: 'dark',
