@@ -64,7 +64,8 @@ export const ThemeProvider = ({ children }) => {
         // fontSize: `${h1}rem`,
         fontSize: `${formValues.h1}px`,
         fontWeight: formValues.h1Weight,
-        lineHeight: 1.2,
+        lineHeight: formValues.h1LineHeight,
+        letterSpacing: formValues.h1LetterSpacing,
       },
     },
   });

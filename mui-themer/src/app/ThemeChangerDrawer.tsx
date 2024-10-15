@@ -3,6 +3,7 @@ import {
   Divider,
   Drawer,
   IconButton,
+  MenuItem,
   Stack,
   TextField,
 } from '@mui/material';
@@ -204,17 +205,38 @@ export const ThemeChangerDrawer = () => {
               label="Size"
               variant="outlined"
               type="number"
-              // onChange={(event) => setH1(Number(event.target.value))}
-              // defaultValue={h1}
+              fullWidth
               {...register('h1', { valueAsNumber: true })}
             />
             <TextField
               label="Weight"
               variant="outlined"
-              type="number"
+              select
               // onChange={(event) => setH1(Number(event.target.value))}
               // defaultValue={h1}
-              {...register('h1Weight', { valueAsNumber: true })}
+              fullWidth
+              {...register('h1Weight')}
+            >
+              <MenuItem value={100}>100 (thin)</MenuItem>
+              <MenuItem value={300}>300 (light)</MenuItem>
+              <MenuItem value={400}>400 (regular)</MenuItem>
+              <MenuItem value={500}>500 (medium)</MenuItem>
+              <MenuItem value={700}>700 (bold)</MenuItem>
+              <MenuItem value={900}>900 (black)</MenuItem>
+            </TextField>
+            <TextField
+              label="Line height"
+              variant="outlined"
+              type="number"
+              fullWidth
+              {...register('h1LineHeight', { valueAsNumber: true })}
+            />
+            <TextField
+              label="Letter spacing"
+              variant="outlined"
+              type="number"
+              fullWidth
+              {...register('h1LetterSpacing', { valueAsNumber: true })}
             />
             <Typography variant="h2" gutterBottom>
               h2. Heading
