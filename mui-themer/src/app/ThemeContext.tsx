@@ -30,6 +30,7 @@ import {
   success,
 } from './colors';
 import '@fontsource/roboto';
+import { useFormContext } from 'react-hook-form';
 
 const ThemeContext = createContext({
   primaryColor: '#1976d2',
@@ -43,6 +44,9 @@ export const ThemeProvider = ({ children }) => {
     primary.find((color) => color.label === '600')?.color || '#1976d2'
   );
   const [h1, setH1] = useState(20);
+  const { watch } = useFormContext();
+  const formValues = watch();
+  console.log('???', formValues.h1);
 
   const theme = createTheme({
     palette: {
@@ -65,7 +69,7 @@ export const ThemeProvider = ({ children }) => {
       fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
       h1: {
         // fontSize: `${h1}rem`,
-        fontSize: `${h1}px`,
+        fontSize: `${formValues.h1}px`,
         fontWeight: 700,
         lineHeight: 1.2,
       },
