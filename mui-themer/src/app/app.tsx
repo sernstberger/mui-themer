@@ -15,6 +15,7 @@ const defaultValues = {
   h1: 20,
   textFieldVariant: 'outlined',
   textFieldLabelShrink: 'true',
+  textFieldDisableUnderline: 'false',
 };
 
 const App = () => {

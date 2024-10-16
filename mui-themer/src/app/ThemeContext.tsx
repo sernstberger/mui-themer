@@ -75,6 +75,9 @@ export const ThemeProvider = ({ children }) => {
           InputLabelProps: {
             shrink: formValues.textFieldLabelShrink === 'true',
           },
+          InputProps: {
+            disableUnderline: formValues.textFieldDisableUnderline === 'true',
+          },
         },
       },
     },

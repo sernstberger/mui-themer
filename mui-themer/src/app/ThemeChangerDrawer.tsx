@@ -310,6 +310,16 @@ export const ThemeChangerDrawer = () => {
               <MenuItem value="true">Shrink</MenuItem>
               <MenuItem value="false">Float</MenuItem>
             </TextField>
+            <TextField
+              label="Disable underline"
+              variant="outlined"
+              select
+              fullWidth
+              {...register('textFieldDisableUnderline')}
+            >
+              <MenuItem value="true">True</MenuItem>
+              <MenuItem value="false">False</MenuItem>
+            </TextField>
           </Box>
         </Drawer>
       </MuiThemeProvider>
