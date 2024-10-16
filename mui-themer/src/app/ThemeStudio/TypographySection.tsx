@@ -1,13 +1,15 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Divider, Stack, Typography } from '@mui/material';
 import { TypographyVariant } from './TypographyVariant';
 
 export const TypographySection = () => {
   return (
     <div>
       <Typography variant="h2">Typography</Typography>
-      <Box>
+      <Stack spacing={1}>
         <TypographyVariant variant="h1" />
+        <Divider />
         <TypographyVariant variant="h2" />
+        <Divider />
         <TypographyVariant variant="h3" />
         <TypographyVariant variant="h4" />
         <TypographyVariant variant="h5" />
@@ -19,7 +21,7 @@ export const TypographySection = () => {
         <TypographyVariant variant="button" />
         <TypographyVariant variant="caption" />
         <TypographyVariant variant="overline" />
-      </Box>
+      </Stack>
     </div>
   );
 };

@@ -1,8 +1,4 @@
-import {
-  Button,
-  createTheme,
-  ThemeProvider as MuiThemeProvider,
-} from '@mui/material';
+import { createTheme, ThemeProvider as MuiThemeProvider } from '@mui/material';
 import {
   red,
   pink,
@@ -27,7 +23,7 @@ import {
   error,
   warning,
   success,
-} from './colors';
+} from '../colors';
 import '@fontsource/roboto/100.css';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -36,7 +32,7 @@ import '@fontsource/roboto/700.css';
 import '@fontsource/roboto/900.css';
 import { useFormContext } from 'react-hook-form';
 
-export const ThemeProvider = ({ children }) => {
+export const Theme = ({ children }) => {
   const { watch } = useFormContext();
   const formValues = watch();
   // console.log('???', formValues);

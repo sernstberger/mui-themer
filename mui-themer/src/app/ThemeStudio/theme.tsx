@@ -113,11 +113,32 @@ export const theme = createTheme({
     MuiTextField: {
       defaultProps: {
         variant: 'filled',
-        InputLabelProps: {
-          shrink: true,
+      },
+    },
+    MuiInputLabel: {
+      defaultProps: {
+        shrink: true,
+      },
+      styleOverrides: {
+        root: {
+          position: 'relative',
+          transform: 'none',
+          fontSize: '0.625rem',
+          fontWeight: 700,
         },
-        InputProps: {
-          disableUnderline: true,
+      },
+    },
+    MuiFilledInput: {
+      defaultProps: {
+        disableUnderline: true,
+      },
+      styleOverrides: {
+        root: {
+          // backgroundColor: 'red',
+          borderRadius: 0,
+        },
+        input: {
+          padding: '0.25rem 0.5rem',
         },
       },
     },

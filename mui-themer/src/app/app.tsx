@@ -1,9 +1,9 @@
 import { CssBaseline } from '@mui/material';
 import { Box } from '@mui/material';
-import { ThemeProvider } from './ThemeContext';
 import { ThemeStudio } from './ThemeStudio';
 import { FormProvider, useForm } from 'react-hook-form';
 import { ExampleApp } from './ExampleApp';
+import { Theme } from './ExampleApp/Theme';
 
 const defaultValues = {
   primary: { main: '#1976d2', light: '#63a4ff', dark: '#004ba0' },
@@ -22,14 +22,14 @@ const App = () => {
   const methods = useForm({ defaultValues });
   return (
     <FormProvider {...methods}>
-      <ThemeProvider>
+      <Theme>
         <CssBaseline />
         <Box sx={{ display: 'flex' }}>
           <ExampleApp />
 
           <ThemeStudio />
         </Box>
-      </ThemeProvider>
+      </Theme>
     </FormProvider>
   );
 };
