@@ -7,10 +7,6 @@ import { ContentCopy } from '@mui/icons-material';
 import { useFormContext } from 'react-hook-form';
 import { TypographySection } from './TypographySection';
 import { theme as themeStudioTheme } from './theme';
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Section } from './Section';
 
 const drawerWidth = 240;
