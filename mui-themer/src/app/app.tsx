@@ -1,7 +1,7 @@
 import { CssBaseline } from '@mui/material';
 import { Box } from '@mui/material';
 import { ThemeProvider } from './ThemeContext';
-import { ThemeChangerDrawer } from './ThemeChangerDrawer';
+import { ThemeStudio } from './ThemeStudio';
 import { FormProvider, useForm } from 'react-hook-form';
 import { ExampleApp } from './ExampleApp';
 
@@ -27,7 +27,7 @@ const App = () => {
         <Box sx={{ display: 'flex' }}>
           <ExampleApp />
 
-          <ThemeChangerDrawer />
+          <ThemeStudio />
         </Box>
       </ThemeProvider>
     </FormProvider>

@@ -1,5 +1,4 @@
 import {
-  CssBaseline,
   Divider,
   Drawer,
   IconButton,
@@ -8,7 +7,7 @@ import {
   TextField,
 } from '@mui/material';
 import { Box, Typography } from '@mui/material';
-import { PaletteItem } from './Components/PaletteItem';
+import { PaletteItem } from '../Components/PaletteItem';
 import {
   Button,
   createTheme,
@@ -20,7 +19,7 @@ import { useFormContext } from 'react-hook-form';
 
 const drawerWidth = 240;
 
-export const ThemeChangerDrawer = () => {
+export const ThemeStudio = () => {
   const theme = createTheme({
     palette: {
       mode: 'dark',
@@ -153,8 +152,6 @@ export const ThemeChangerDrawer = () => {
     // onSubmit={methods.handleSubmit(onSubmit)}
     >
       <MuiThemeProvider theme={theme}>
-        {/* <CssBaseline /> */}
-
         <Drawer
           sx={{
             width: drawerWidth,
