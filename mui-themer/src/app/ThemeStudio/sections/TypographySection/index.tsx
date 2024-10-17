@@ -1,6 +1,6 @@
-import { Box, Divider, Stack, Typography } from '@mui/material';
+import { Divider, Stack } from '@mui/material';
 import { TypographyVariant } from './TypographyVariant';
-import { Section } from './Section';
+import { Section } from '../../components/Section';
 
 export const TypographySection = () => {
   return (
