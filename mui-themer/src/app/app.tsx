@@ -4,6 +4,7 @@ import { ThemeStudio } from './ThemeStudio';
 import { FormProvider, useForm } from 'react-hook-form';
 import { ExampleApp } from './ExampleApp';
 import { Theme } from './ExampleApp/Theme';
+import useFormPersist from 'react-hook-form-persist';
 
 const defaultValues = {
   primary: { main: '#1976d2', light: '#63a4ff', dark: '#004ba0' },
@@ -69,8 +70,18 @@ const defaultValues = {
   textFieldDisableUnderline: 'false',
 };
 
+const savedValues = sessionStorage.getItem('form')
+  ? JSON.parse(sessionStorage.getItem('form') as string)
+  : defaultValues;
+
+console.log('!!!', { defaultValues, savedValues });
 const App = () => {
-  const methods = useForm({ defaultValues });
+  const methods = useForm({ defaultValues: savedValues });
+  useFormPersist('form', {
+    watch: methods.watch,
+    setValue: methods.setValue,
+  });
+
   return (
     <FormProvider {...methods}>
       <Theme>
