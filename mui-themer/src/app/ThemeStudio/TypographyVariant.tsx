@@ -1,6 +1,5 @@
 import {
   MenuItem,
-  Stack,
   TextField,
   TypographyPropsVariantOverrides,
 } from '@mui/material';
@@ -18,7 +17,8 @@ interface TypographyVariantProps {
 }
 
 export const TypographyVariant = ({ variant }: TypographyVariantProps) => {
-  const { register } = useFormContext();
+  const { register, watch } = useFormContext();
+  const formValues = watch();
 
   return (
     <Box>
@@ -37,6 +37,7 @@ export const TypographyVariant = ({ variant }: TypographyVariantProps) => {
             label="Weight"
             select
             fullWidth
+            defaultValue={formValues[`${variant}Weight`]} // TODO: this shouldn't be needed
             {...register(`${variant}Weight`)}
           >
             <MenuItem value={100}>100 (thin)</MenuItem>

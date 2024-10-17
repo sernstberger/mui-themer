@@ -115,7 +115,7 @@ export const PaletteItem = ({ color }: PaletteItemProps) => {
     setValue(color, { main: newColor });
   };
 
-  console.log('formValues', formValues.primary);
+  // console.log('formValues', formValues.primary);
 
   return (
     <div>

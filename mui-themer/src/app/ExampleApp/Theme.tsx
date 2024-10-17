@@ -143,9 +143,11 @@ export const Theme = ({ children }) => {
           InputLabelProps: {
             shrink: formValues.textFieldLabelShrink === 'true',
           },
-          InputProps: {
-            disableUnderline: formValues.textFieldDisableUnderline === 'true',
-          },
+        },
+      },
+      MuiFilledInput: {
+        defaultProps: {
+          disableUnderline: formValues.textFieldDisableUnderline === 'true',
         },
       },
     },

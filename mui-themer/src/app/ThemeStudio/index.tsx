@@ -69,7 +69,7 @@ export const ThemeStudio = () => {
 
           <TypographySection />
 
-          <Section title="Text fields">
+          {/* <Section title="Text fields">
             <TextField
               label="Variant"
               select
@@ -98,7 +98,7 @@ export const ThemeStudio = () => {
               <MenuItem value="true">True</MenuItem>
               <MenuItem value="false">False</MenuItem>
             </TextField>
-          </Section>
+          </Section> */}
         </Drawer>
       </MuiThemeProvider>
     </form>
