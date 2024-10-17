@@ -8,6 +8,7 @@ import { OverridableStringUnion } from '@mui/types';
 import { Variant } from '@mui/material/styles/createTypography';
 import { useFormContext } from 'react-hook-form';
 import Grid from '@mui/material/Grid2';
+import { NumberInput } from '../../inputs/NumberInput';
 
 interface TypographyVariantProps {
   variant: OverridableStringUnion<
@@ -25,12 +26,7 @@ export const TypographyVariant = ({ variant }: TypographyVariantProps) => {
       <Typography variant="h3">{variant}</Typography>
       <Grid container spacing={1}>
         <Grid size={6}>
-          <TextField
-            label="Size"
-            type="number"
-            fullWidth
-            {...register(variant, { valueAsNumber: true })}
-          />
+          <NumberInput label="Size" fieldName={variant} />
         </Grid>
         <Grid size={6}>
           <TextField
@@ -49,19 +45,12 @@ export const TypographyVariant = ({ variant }: TypographyVariantProps) => {
           </TextField>
         </Grid>
         <Grid size={6}>
-          <TextField
-            label="Line height"
-            type="number"
-            fullWidth
-            {...register(`${variant}LineHeight`, { valueAsNumber: true })}
-          />
+          <NumberInput label="Line height" fieldName={`${variant}LineHeight`} />
         </Grid>
         <Grid size={6}>
-          <TextField
+          <NumberInput
             label="Letter spacing"
-            type="number"
-            fullWidth
-            {...register(`${variant}LetterSpacing`, { valueAsNumber: true })}
+            fieldName={`${variant}LetterSpacing`}
           />
         </Grid>
       </Grid>
